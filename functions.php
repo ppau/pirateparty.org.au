@@ -4,7 +4,8 @@ require_once('twitter_bootstrap_nav_walker.php');
 $themename= 'Pirate Party Australia';
 
 register_nav_menus(array(
-	'primary' => __( 'Main Menu', $themename ),
+	'primary_left' => __( 'Main Menu Left', $themename ),
+	'primary_right' => __( 'Main Menu Right', $themename ),
 ));
 
 function static_url()

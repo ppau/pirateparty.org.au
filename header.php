@@ -68,8 +68,8 @@
 <?php
 
 $defaults = array(
-	'theme_location'  => '',
-	'menu'            => 'navigation',
+	'theme_location'  => 'primary_left',
+	'menu'            => '',
 	'container'       => 'ul',
 	'container_class' => '',
 	'container_id'    => '',
@@ -92,7 +92,29 @@ $defaults = array(
 							<li><a href="#" class="action left">Join us!</a></li>
 							<li><a href="#" class="action right">Help us!</a></li>
 						</ul>
-						
+
+<?php
+
+$defaults = array(
+	'theme_location'  => 'primary_right',
+	'menu'            => '',
+	'container'       => 'ul',
+	'container_class' => '',
+	'container_id'    => '',
+	'menu_class'      => 'nav',
+	'menu_id'         => '',
+	'echo'            => true,
+	'fallback_cb'     => 'wp_page_menu',
+	'before'          => '',
+	'after'           => '',
+	'link_before'     => '',
+	'link_after'      => '',
+	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+	'depth'           => 0,
+	'walker'          => new twitter_bootstrap_nav_walker()
+);
+?>
+						<?php wp_nav_menu($defaults); ?>
 					</div>
 				</div>
 			</div>
