@@ -369,7 +369,7 @@ nav #menu-right, nav #menu-action {
 	@include button_gradient($pcbluegs, $pssteel);
 	color: #fff;
 	background-color: $pcc;
-	padding: 10px 15px;
+	padding: 10px;
 	font-size: 1em;
 }
 
@@ -415,6 +415,9 @@ input:-moz-placeholder {
 	color: #fff;
 }
 
+#banner a.btn {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) !important;
+}
 
 #banner p {
 	margin: 0;
@@ -422,14 +425,13 @@ input:-moz-placeholder {
 
 #banner .main {
 	border: 10px solid $bggrey;
-	background-image: url(../img/banner/banner.png);
-	height: 150px;
+	background-image: url(../img/banner/launch_banner.png);
+	min-height: 150px;
 	font-size: 40px;
 }
 
 #banner .main p {
 	line-height: 40px;
-	margin-left: 25px;
 }
 
 #banner .main .first {
@@ -443,11 +445,11 @@ input:-moz-placeholder {
 #banner .lower div {
 	border: 5px solid $bggrey;
 	height: 150px;
-
+	max-width: 280px;
 }
 
 #banner .lower .t2 {
-	background-image: url(../img/banner/acta.png);
+	background: url(../img/banner/acta.png) no-repeat;
 	text-align: right;
 }
 
@@ -464,12 +466,12 @@ input:-moz-placeholder {
 }
 
 #banner .lower .t1 {
-	background-image: url(../img/banner/redacted.png);
+	background: url(../img/banner/redacted.png) no-repeat;
 	text-align: center;
 }
 
 #banner .lower .t3 {
-	background-image: url(../img/banner/ozlog.png);
+	background: url(../img/banner/ozlog.png) no-repeat;
 	text-align: center;
 }
 
@@ -500,14 +502,20 @@ input:-moz-placeholder {
 }
 
 
-.news {
-
+.news .info {
+	overflow: auto;
 }
 
-.news h1 
+.news .info .categories, .news .info .comments, .news .info .tags {
+	float: left;
+	margin-right: 20px
+}
+
+.news h1, .news h2, .news h2 a
 {
 	color: $pcc;
 	margin: 0;
+	font-size: 28px;
 }
 
 .news .by 
@@ -562,7 +570,7 @@ footer {
 }
 
 .ppau-fixed-top .navbar-inner {
-    border-width: 0 0 1px;
+    border-width: 0 0;
 }
 
 .ppau-fixed-top .container {
@@ -675,3 +683,7 @@ footer {
     text-decoration: none;
 }
 
+
+.center, .centre {
+	text-align: center;
+}

@@ -2,7 +2,7 @@
 			</div>
 			<div class="span3 hidden-phone" id="column">
 
-				<aside style="padding-bottom: 0px;">
+				<aside style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
 					<a href="#" class="button button-orange button-become-a-member">Become a member</a>
 				</aside>
 				

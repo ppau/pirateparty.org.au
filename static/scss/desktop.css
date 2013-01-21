@@ -483,7 +483,7 @@ nav #menu-right, nav #menu-action {
   background-image: -webkit-linear-gradient(top, #7695cd, #304c7a);
   color: #fff;
   background-color: #304c7a;
-  padding: 10px 15px;
+  padding: 10px;
   font-size: 1em; }
 
 #column .we-are span {
@@ -519,18 +519,20 @@ input:-moz-placeholder {
 #banner {
   color: #fff; }
 
+#banner a.btn {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) !important; }
+
 #banner p {
   margin: 0; }
 
 #banner .main {
   border: 10px solid #eaeaea;
-  background-image: url(../img/banner/banner.png);
-  height: 150px;
+  background-image: url(../img/banner/launch_banner.png);
+  min-height: 150px;
   font-size: 40px; }
 
 #banner .main p {
-  line-height: 40px;
-  margin-left: 25px; }
+  line-height: 40px; }
 
 #banner .main .first {
   padding-top: 25px; }
@@ -540,10 +542,11 @@ input:-moz-placeholder {
 
 #banner .lower div {
   border: 5px solid #eaeaea;
-  height: 150px; }
+  height: 150px;
+  max-width: 280px; }
 
 #banner .lower .t2 {
-  background-image: url(../img/banner/acta.png);
+  background: url(../img/banner/acta.png) no-repeat;
   text-align: right; }
 
 #banner .lower .t2 p {
@@ -555,11 +558,11 @@ input:-moz-placeholder {
   bottom: 0px; }
 
 #banner .lower .t1 {
-  background-image: url(../img/banner/redacted.png);
+  background: url(../img/banner/redacted.png) no-repeat;
   text-align: center; }
 
 #banner .lower .t3 {
-  background-image: url(../img/banner/ozlog.png);
+  background: url(../img/banner/ozlog.png) no-repeat;
   text-align: center; }
 
 #banner .lower .c {
@@ -581,9 +584,17 @@ input:-moz-placeholder {
   text-align: center;
   font-size: 0.9em; }
 
-.news h1 {
+.news .info {
+  overflow: auto; }
+
+.news .info .categories, .news .info .comments, .news .info .tags {
+  float: left;
+  margin-right: 20px; }
+
+.news h1, .news h2, .news h2 a {
   color: #304c7a;
-  margin: 0; }
+  margin: 0;
+  font-size: 28px; }
 
 .news .by {
   font-size: 0.9em;
@@ -622,7 +633,7 @@ footer {
   padding-right: 0; }
 
 .ppau-fixed-top .navbar-inner {
-  border-width: 0 0 1px; }
+  border-width: 0 0; }
 
 .ppau-fixed-top .container {
   max-width: 1200px;
@@ -709,6 +720,9 @@ footer {
   text-shadow: none !important;
   outline: 0 none;
   text-decoration: none; }
+
+.center, .centre {
+  text-align: center; }
 
 /*
 ############
