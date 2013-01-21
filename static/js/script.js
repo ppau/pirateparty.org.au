@@ -3,9 +3,7 @@
 */
 
 $(function(){
-	/* some page wireups */
-	$("ul.sf-menu").superfish();
-			
+		
 	/* set form field focus */
 	var form = $('[data-first-field]').first();
 	var field_id = "#" + $(form).attr('data-first-field');

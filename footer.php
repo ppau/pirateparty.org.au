@@ -96,7 +96,6 @@
 	<script defer src="<?= static_url() ?>js/vendor/jquery-1.8.2.min.js"></script>
 	<script defer src="<?= static_url() ?>js/vendor/bootstrap.min.js"></script>
 	<script defer src="<?= static_url() ?>js/vendor/bootstrap-hover-dropdown.min.js"></script>
-	<script defer src="<?= static_url() ?>js/vendor/superfish.js"></script>
 	<script defer src="<?= static_url() ?>js/plugins.js"></script>
 	<script defer src="<?= static_url() ?>js/script.js"></script>
 
