@@ -233,7 +233,7 @@ blockquote {
   padding: 15px 15px 0 15px;
   margin: 15px; }
 
-header {
+#header_real header {
   /*background-image: url(../img/darkwave.png);
   background-position: center 0px;*/
   background-image: url(../img/darkwave_normal.png);
@@ -260,7 +260,7 @@ header {
   height: 125px;
   font-family: 'GehenSansCondensed'; }
 
-#header #logo, header #logo:visited {
+#header #logo, #header_real header #logo:visited {
   font-size: 5em;
   margin: 15px 0 0 275px;
   padding: 13px 0 0 139px;
@@ -268,7 +268,7 @@ header {
   text-decoration: none;
   font-weight: bold; }
 
-#header #logo:hover, header #logo:active {
+#header #logo:hover, #header_real header #logo:active {
   color: #304c7a; }
 
 #header #logo span {
@@ -320,7 +320,7 @@ header {
  * LET the menu begin
  * 
  */
-nav {
+#header nav {
   background-image: linear-gradient(top, #f5f5f5, #d5d5d5);
   background-image: -moz-linear-gradient(top, #f5f5f5, #d5d5d5);
   background-image: -ms-linear-gradient(top, #f5f5f5, #d5d5d5);
@@ -331,13 +331,13 @@ nav {
   border-bottom: solid 1px;
   border-color: #bbb; }
 
-nav .sf-menu {
+#header nav .sf-menu {
   display: block;
   text-shadow: white 1px 1px 1px;
   font-size: 16px;
   /* $p1, $p2, $p3, $percent, $frac */ }
 
-nav a {
+#header nav a {
   color: #454545 !important; }
 
 .sf-menu li:hover, .sf-menu li.sfHover, .nav li a:hover, .nav li a:focus,
@@ -425,6 +425,9 @@ nav #menu-right, nav #menu-action {
   overflow: auto;
   background-color: rgba(255, 255, 255, 0.9); }
 
+#page header {
+  margin: 0; }
+
 #content, #column {
   font-family: "Droid Sans","Lucida Grande",Tahoma,sans-serif; }
 
@@ -436,7 +439,7 @@ nav #menu-right, nav #menu-action {
 #column aside {
   margin: 0 0 15px 0;
   padding-bottom: 10px;
-  background-color: #eaeaea;
+  background-color: #EFEFEF;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -451,12 +454,12 @@ nav #menu-right, nav #menu-action {
 
 #column aside header {
   background-color: #999;
-  background-image: linear-gradient(top, #eeeeee, #999999);
-  background-image: -moz-linear-gradient(top, #eeeeee, #999999);
-  background-image: -ms-linear-gradient(top, #eeeeee, #999999);
-  background-image: -o-linear-gradient(top, #eeeeee, #999999);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), to(#999999));
-  background-image: -webkit-linear-gradient(top, #eeeeee, #999999);
+  background-image: linear-gradient(top, #cccccc, #999999);
+  background-image: -moz-linear-gradient(top, #cccccc, #999999);
+  background-image: -ms-linear-gradient(top, #cccccc, #999999);
+  background-image: -o-linear-gradient(top, #cccccc, #999999);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cccccc), to(#999999));
+  background-image: -webkit-linear-gradient(top, #cccccc, #999999);
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -520,7 +523,11 @@ input:-moz-placeholder {
   color: #fff; }
 
 #banner a.btn {
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) !important; }
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) !important;
+  text-decoration: none; }
+
+#banner a.button:hover, #banner a.button:active {
+  text-decoration: none !important; }
 
 #banner p {
   margin: 0; }
@@ -578,10 +585,12 @@ input:-moz-placeholder {
   float: right; }
 
 .news-header {
+  text-align: center; }
+
+.news-header, #page article .entry-meta, #page article .entry-footer {
   margin: 10px 0;
   border: 5px solid #eaeaea;
   background-color: #eaeaea;
-  text-align: center;
   font-size: 0.9em; }
 
 .news .info {
@@ -591,10 +600,13 @@ input:-moz-placeholder {
   float: left;
   margin-right: 20px; }
 
-.news h1, .news h2, .news h2 a {
+#page h1, #page h1 a, .news h2, .news h2 a {
   color: #304c7a;
   margin: 0;
   font-size: 28px; }
+
+#page .entry-content {
+  margin-top: 10px; }
 
 .news .by {
   font-size: 0.9em;
@@ -616,7 +628,7 @@ input:-moz-placeholder {
 .icon-pp {
   background-image: url(../img/icons/function/app_48.png); }
 
-footer {
+#real-footer {
   text-align: center;
   background-color: #fff; }
 
@@ -643,7 +655,7 @@ footer {
   #page {
     padding-right: 15px !important; }
 
-  header {
+  #header_real header {
     background-image: url(../img/darkwave_normal_small.png);
     background-position: 0px 47px;
     background-repeat: repeat-x;
@@ -668,7 +680,7 @@ footer {
     height: 55px;
     font-family: 'GehenSansCondensed'; }
 
-  #header #logo, header #logo:visited {
+  #header #logo, #header_real header #logo:visited {
     font-size: 1.8em;
     margin: 5px 0 0 5px;
     padding: 0 0 0 60px;
@@ -676,7 +688,7 @@ footer {
     text-decoration: none;
     font-weight: bold; }
 
-  #header #logo:hover, header #logo:active {
+  #header #logo:hover, #header_real header #logo:active {
     color: #304c7a; }
 
   #header #logo span {
@@ -708,7 +720,10 @@ footer {
     margin-left: 15px; } }
 @media (min-width: 980px) {
   .dropdown-menu a {
-    line-height: 28px !important; } }
+    line-height: 28px !important; }
+
+  #menu-left {
+    margin-left: 50px !important; } }
 #page-row {
   background-color: #fff; }
 
@@ -723,6 +738,18 @@ footer {
 
 .center, .centre {
   text-align: center; }
+
+#page #comments .comment {
+  margin-left: 0 !important; }
+
+.nav .dropdown .dropdown-menu {
+  display: none; }
+
+.nav .open .dropdown-menu {
+  display: block !important; }
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block; }
 
 /*
 ############

@@ -1,32 +1,59 @@
-<?php get_header(); ?>
-	<div data-role="content" id="content">
-		<?php if (is_home()) : ?>
-			
-			<?php require_once('homepage_banner.php'); ?>
-			
-			<div class="news-header">Latest news from Pirate Party Australia</div>
-			
-		<?php endif; ?>
-		<div class="news">
-          <?php if (have_posts()) : ?>
-	  <?php while (have_posts()) : the_post(); get_template_part( 'post' ); endwhile; ?>
-	  <?php 
-            $newer = get_previous_posts_link('&lsaquo; Newer');
-            $older = get_next_posts_link('Older &rsaquo;');
-            if ($newer != null || $older != null): ?>
+<?php
+/** index.php
+ *
+ * The main template file.
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @author		Konstantin Obenland
+ * @package		The Bootstrap
+ * @since		1.0.0 - 05.02.2012
+ */
 
-	    <?php if ($newer != null): ?>
-	    <div class='newer'><?php echo $newer ?></div>
-	    <?php endif; if ($older != null): ?>
-	    <div class='older'><?php echo $older ?></div>
-            <?php endif; ?>
+get_header(); ?>
 
-            <?php endif; ?>
-          <?php else: ?>
-          <div id="post-0" class="post no-results not-found">
-            No results were found for the requested archive. Perhaps searching will help find a related post.
-          </div>  
-          <?php endif; ?>
-		</div>
-	</div>
-<?php get_footer(); ?>
+<div class="span9" data-role="page" id="page">
+
+	<?php if (is_home()) : ?>
+		
+		<?php require_once('homepage_banner.php'); ?>
+		
+		<div class="news-header">Latest news from Pirate Party Australia</div>
+		
+	<?php endif; ?>
+	
+	<section id="primary">
+		<?php tha_content_before(); ?>
+		<div id="content" role="main">
+			<?php tha_content_top();
+			
+			if ( have_posts() ) {
+				while ( have_posts() ) {
+					the_post();
+					get_template_part( '/partials/content', get_post_format() );
+				}
+				the_bootstrap_content_nav( 'nav-below' );
+			}
+			else {
+				get_template_part( '/partials/content', 'not-found' );
+			}
+		
+			tha_content_bottom(); ?>
+		</div><!-- #content -->
+		<?php tha_content_after(); ?>
+	</section><!-- #primary -->
+
+</div>
+
+
+<?php
+get_sidebar();
+get_footer();
+
+
+/* End of file index.php */
+/* Location: ./wp-content/themes/the-bootstrap/index.php */

@@ -1,29 +1,47 @@
+<?php
+/** header.php
+ *
+ * Displays all of the <head> section and everything up till </header>
+ *
+ * @author		Konstantin Obenland
+ * @package		The Bootstrap
+ * @since		1.0 - 05.02.2012
+ */
+
+?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
+	<?php tha_head_top(); ?>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title><?php the_title(); ?> - Pirate Party Australia2</title>
+	<title><?php wp_title( '&ndash;', true, 'right' ); ?> - Pirate Party Australia2</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<meta name="viewport" content="width=device-width">
 
 	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 	
 	<script src="<?= static_url() ?>js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
 	<link rel="shortcut icon" href="/favicon.ico"/>
 	
+	<?php tha_head_bottom(); ?>
+	
+	<!-- mark -->
 	<?php wp_head(); ?>
+	<!-- mark -->
 
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 
-	<div class="row-fluid">
+	<div class="row-fluid" id="header_real">
 		<div class="span12">
 			<header>
 				<div id="header">
@@ -33,8 +51,8 @@
 					</a>
 	
 					<div id="search" class="hidden-phone">
-						<form id="id_search_form" method="post" action="/search/" style="padding: 0;">
-							<input type="text" class="input-medium field-search notext" name="query" placeholder="Enter search terms here...">
+						<form id="id_search_form" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>" style="padding: 0;">
+							<input type="text" class="input-medium field-search notext" name="s" placeholder="Enter search terms here...">
 							<input type="submit" class="btn" value="search" name="submit">
 						</form>
 	
@@ -53,17 +71,14 @@
 	</div>
 
 
-
-
-
-		<div class="navbar ppau-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button" style="margin-bottom: 5px; float: left !important; color: #222; text-shadow: none !important;">
-						<i class="icon-th-list"></i> menu
-					</button>
-					<a href="#" class="hidden-desktop btn btn-warning pull-right" style="padding: 7px 10px; font-weight: bold; margin-right: 5px;font-size: 14px; line-height: 20px;">Join us</a>
-					<div class="nav-collapse collapse">
+	<div class="navbar ppau-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button" style="margin-bottom: 5px; float: left !important; color: #222; text-shadow: none !important;">
+					<i class="icon-th-list"></i> menu
+				</button>
+				<a href="#" class="hidden-desktop btn btn-warning pull-right" style="padding: 7px 10px; font-weight: bold; margin-right: 5px;font-size: 14px; line-height: 20px;">Join us</a>
+				<div class="nav-collapse collapse">
 						
 <?php
 
@@ -114,17 +129,22 @@ $defaults = array(
 	'walker'          => new twitter_bootstrap_nav_walker()
 );
 ?>
-						<?php wp_nav_menu($defaults); ?>
-					</div>
+					<?php wp_nav_menu($defaults); ?>
 				</div>
 			</div>
 		</div>
+	</div>
 
 
 
 
+	<div id="page-row" class="row-fluid" style="max-width: 1200px !important; margin: 0 auto;">
+		
 
 
-		<div id="page-row" class="row-fluid" style="max-width: 1200px !important; margin: 0 auto;">
-			<div class="span9" data-role="page" id="page">
+<?php
+				tha_header_after();
+				
 
+/* End of file header.php */
+/* Location: ./wp-content/themes/the-bootstrap/header.php */

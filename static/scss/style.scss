@@ -104,7 +104,7 @@ blockquote {
 
 
 
-header {
+#header_real header {
 	/*background-image: url(../img/darkwave.png);
 	background-position: center 0px;*/
 	background-image: url(../img/darkwave_normal.png);
@@ -136,7 +136,7 @@ header {
 	font-family: 'GehenSansCondensed';
 }
 
-#header #logo, header #logo:visited {
+#header #logo, #header_real header #logo:visited {
 	font-size: 5em;
 	margin: 15px 0 0 275px;
 	padding: 13px 0 0 139px;
@@ -145,7 +145,7 @@ header {
 	font-weight: bold;
 }
 
-#header #logo:hover, header #logo:active {
+#header #logo:hover, #header_real header #logo:active {
 	color: $pcc;
 }
 
@@ -205,7 +205,7 @@ header {
  * 
  */
 
-nav {
+#header nav {
 	@include button_gradient(#f5f5f5, #d5d5d5);
 	border-top: solid 1px;
 	border-bottom: solid 1px;
@@ -213,11 +213,11 @@ nav {
 }
 
 
-nav .container {
+#header nav .container {
 	
 }
 
-nav .sf-menu {
+#header nav .sf-menu {
 	display: block;
 	text-shadow: rgba(255, 255, 255, 1.0) 1px 1px 1px;
 	font-size: 16px;
@@ -225,7 +225,7 @@ nav .sf-menu {
 	
 }
 
-nav a
+#header nav a
 {
 	color: #454545 !important;
 }
@@ -322,6 +322,10 @@ nav #menu-right, nav #menu-action {
 	background-color: rgba(255, 255, 255, 0.9);
 }
 
+#page header {
+	margin: 0;
+}
+
 #content, #column {
 	font-family: "Droid Sans","Lucida Grande",Tahoma,sans-serif;
 }
@@ -335,7 +339,7 @@ nav #menu-right, nav #menu-action {
 #column aside {
 	margin: 0 0 15px 0;
 	padding-bottom: 10px;
-	background-color: $bggrey;
+	background-color: #EFEFEF;
 	@include border_radius(4px);
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
@@ -350,7 +354,7 @@ nav #menu-right, nav #menu-action {
 
 #column aside header {
 	background-color: #999;
-	@include button_gradient(#eee, #999);
+	@include button_gradient(#ccc, #999);
 	color: #fff;
 	text-align: center;
 	padding: 10px;
@@ -417,6 +421,11 @@ input:-moz-placeholder {
 
 #banner a.btn {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) !important;
+	text-decoration: none;
+}
+
+#banner a.button:hover, #banner a.button:active {
+	text-decoration: none !important;
 }
 
 #banner p {
@@ -493,11 +502,15 @@ input:-moz-placeholder {
 }
 
 
-.news-header{
+.news-header {
+	text-align: center;	
+}
+
+.news-header, #page article .entry-meta, #page article .entry-footer{
 	margin: 10px 0;
 	border: 5px solid $bggrey;
 	background-color: $bggrey;
-	text-align: center;
+
 	font-size: 0.9em;
 }
 
@@ -511,11 +524,15 @@ input:-moz-placeholder {
 	margin-right: 20px
 }
 
-.news h1, .news h2, .news h2 a
+#page h1, #page h1 a, .news h2, .news h2 a
 {
 	color: $pcc;
 	margin: 0;
 	font-size: 28px;
+}
+
+#page .entry-content {
+	margin-top: 10px;
 }
 
 .news .by 
@@ -545,7 +562,7 @@ input:-moz-placeholder {
 	background-image: url(../img/icons/function/app_48.png)
 }
 
-footer {
+#real-footer {
 	text-align: center;
 	background-color: #fff;
 }
@@ -584,7 +601,7 @@ footer {
 		padding-right: 15px !important;
 	}
 
-	header {
+	#header_real header {
 		background-image: url(../img/darkwave_normal_small.png);
 		background-position: 0px 47px;
 		background-repeat: repeat-x;
@@ -613,7 +630,7 @@ footer {
 		font-family: 'GehenSansCondensed';
 	}
 	
-	#header #logo, header #logo:visited {
+	#header #logo, #header_real header #logo:visited {
 		font-size: 1.8em;
 		margin: 5px 0 0 5px;
 		padding: 0 0 0 60px;
@@ -622,7 +639,7 @@ footer {
 		font-weight: bold;
 	}
 	
-	#header #logo:hover, header #logo:active {
+	#header #logo:hover, #header_real header #logo:active {
 		color: $pcc;
 	}
 	
@@ -666,6 +683,10 @@ footer {
 	.dropdown-menu a {
 		line-height: 28px !important;
 	}
+	
+  #menu-left {
+  	margin-left: 50px !important;
+  }
 }
 
 
@@ -686,4 +707,20 @@ footer {
 
 .center, .centre {
 	text-align: center;
+}
+
+#page #comments .comment {
+	margin-left: 0 !important;
+}
+
+.nav .dropdown .dropdown-menu {
+	display: none;
+}
+
+.nav .open  .dropdown-menu{
+	display: block !important;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;
 }

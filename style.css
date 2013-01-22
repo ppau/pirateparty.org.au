@@ -7,14 +7,29 @@ Author URI: http://thomas.randle.id.au
 Version: 1.0
 Tags: responsive, white, bootstrap
 
-License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-License URI: http://creativecommons.org/licenses/by-sa/3.0/
+Derivative of the: The Bootstrap
+Original Author:		Konstantin Obenland
+Original Author URI:	http://en.wp.obenland.it/
+
+License: GNU General Public License v3.0 unless otherwise stated in individual folder license.txt
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Copyright (C) 2012 Konstantin Obenland <konstantin@obenland.it>
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-
 @import url('static/css/bootstrap.min.css'); 
 @import url('static/css/bootstrap-responsive.css'); 
 @import url('static/js/vendor/fancybox/jquery.fancybox-1.3.4.css');
-
 @import url('static/scss/desktop.css');
-
