@@ -85,9 +85,6 @@ function the_bootstrap_setup() {
 	 * @see		http://codex.wordpress.org/Function_Reference/register_nav_menus
 	 */
 	register_nav_menus( array(
-		'primary'		=>	__( 'Main Navigation', $themename ),
-		'header-menu'  	=>	__( 'Header Menu', $themename ),
-		'footer-menu' 	=>	__( 'Footer Menu', $themename ),
 		'primary_left' => __( 'Main Menu Left', $themename ),
 		'primary_right' => __( 'Main Menu Right', $themename ),
 	) );

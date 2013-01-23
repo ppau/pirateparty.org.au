@@ -15,5 +15,11 @@ $(function(){
 			$("#other_amount").hide();
 		}
 	}).trigger("change");
+
+    $('.modal').on('hidden', function () {
+		$('.youtube').each(function(){
+			this.stopVideo();
+		});
+    })
 	
 });
