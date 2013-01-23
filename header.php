@@ -22,7 +22,7 @@
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title><?php wp_title( '&ndash;', true, 'right' ); ?> - Pirate Party Australia2</title>
+	<title><?php wp_title( '&ndash;', true, 'right' ); ?></title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -40,7 +40,13 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+<?php
+/*
+	<img
+	src="http://pirateparty.org.au/media/identity_style_guide/PNG/ppauLogo-australia.png"
+	style="position: absolute; left: 5px; top: 33px;opacity:0.4; height: 68px;"
+	>
+*/ ?>
 	<div class="row-fluid" id="header_real">
 		<div class="span12">
 			<header>
@@ -70,7 +76,6 @@
 		</div>
 	</div>
 
-
 	<div class="navbar ppau-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
@@ -78,7 +83,7 @@
 					<i class="icon-th-list"></i> menu
 				</button>
 				<a href="#" class="hidden-desktop btn btn-warning pull-right" style="padding: 7px 10px; font-weight: bold; margin-right: 5px;font-size: 14px; line-height: 20px;">Join us</a>
-				<div class="nav-collapse collapse">
+				<div class="nav-collapse collapse  no-transition">
 						
 <?php
 

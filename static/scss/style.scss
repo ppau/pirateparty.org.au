@@ -65,6 +65,7 @@ html {
 
 body {
 	background-color: transparent;
+	padding: 0 !important;
 }
 
 h1, .h1 {
@@ -231,7 +232,9 @@ blockquote {
 }
 
 .sf-menu li:hover, .sf-menu li.sfHover, .nav li a:hover, .nav li a:focus,
-.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active,
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover
+{
 	@include button_gradient($pcbluegs, $pssteel);
 	outline: 0;
 	color: #fff !important;
@@ -284,7 +287,7 @@ blockquote {
 	color: #fff !important;
 }
 
-#menu-action a.left:hover, #menu-action a.left:active 
+#menu-action a.left:hover, #menu-action a.left:active
 {
 	border-top: 1px solid $pssteel !important;
 	border-left: 1px solid $pssteel !important;
@@ -298,11 +301,14 @@ blockquote {
 
 
 #menu-action li:hover, #menu-action li.sfHover,
-#menu-action a:focus, #menu-action a:hover, #menu-action a:active {
+#menu-action a:focus, #menu-action a:hover, #menu-action a:active, #menu-action a.active,
+{
+
 	@include button_gradient($pcbluegs, $pcbluegf);
 }
 
-#menu-action a:active, #menu-action a:active{
+#menu-action a:active, #menu-action a:active,
+{
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
 } 
 
@@ -666,10 +672,6 @@ input:-moz-placeholder {
 	}
 }
 
-@media (max-width: 855px) {
-	#id_search_form { display: none; }
-}
-
 @media (max-width: 1120px) {
 	#header {
 		background-image: none;	
@@ -679,7 +681,76 @@ input:-moz-placeholder {
   }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 768px) and (max-width: 979px) {
+	#id_search_form { display: none; }
+	#header_real header {
+		background-image: url(../img/darkwave_normal_small.png);
+		background-position: 0px 67px;
+		background-repeat: repeat-x;
+		background-color: #f7f7f7;
+		height: 85px;
+	}
+	
+	#header {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#header {
+		height: 85px;
+		background: url(../img/boat_normal.png) no-repeat 295px 5px !important;
+		background-size: 70px !important;
+	}
+	
+	#header #logo {
+		float: left;
+		margin: 0 0 0 0;
+		display: block;
+		background: url(../img/logo.png) no-repeat;
+		background-size: 67px;
+		height: 65px;
+		font-family: 'GehenSansCondensed';
+	}
+	
+	#header #logo, #header_real header #logo:visited {
+		font-size: 2.7em;
+		margin: 5px 0 0 5px;
+		padding: 5px 0 0 75px;
+		color: $pc;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	#header #logo:hover, #header_real header #logo:active {
+		color: $pcc;
+	}
+	
+	#header #logo span {
+		color: #000;
+		font-weight: normal;
+		font-family: 'GehenSans';
+		line-height: 33px;
+	}
+	
+	#header #logo .oz {
+		font-family: 'GehenSans';
+		display: block;
+		margin-top: 0;
+		font-size: .60em;
+		color: #333;
+		letter-spacing:1px;
+	}
+
+}
+
+@media (min-width: 979px) {
+	ul.nav li.dropdown ul.dropdown-menu {
+  	margin-top: -1px;
+  }
+  ul.nav li.dropdown:hover ul.dropdown-menu {
+  	display: block;
+  }
+	
 	.dropdown-menu a {
 		line-height: 28px !important;
 	}
@@ -694,7 +765,7 @@ input:-moz-placeholder {
 	background-color: #fff;
 }
 
-.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+.dropdown-menu .active > a{
     background-color: #ccc;
     background-image: -moz-linear-gradient(center top , #eee, #e8e8e8);
     background-repeat: repeat-x;
@@ -720,3 +791,4 @@ input:-moz-placeholder {
 .nav .open  .dropdown-menu{
 	display: block !important;
 }
+
