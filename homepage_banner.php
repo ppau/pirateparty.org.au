@@ -1,11 +1,20 @@
 
 
-<div class="modal hide" id="watch-pres" style="width: auto; margin-left: -360px;">
-  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-  <div class="modal-body" style="width:720px; height: 480px;">
-	<embed id="playerid" class="youtube" width="100%" height="100%" allowfullscreen="true" allowscriptaccess="always" quality="high" bgcolor="#000000" name="playerid" style="" src="http://www.youtube.com/v/MVbeoSPqRs4?enablejsapi=1&version=3&playerapiid=ytplayer" type="application/x-shockwave-flash">
-  </div>
+<div class="modal hide fade" tabindex="-1" id="watch-pres" style="width: auto; margin-left: -360px;">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+			&times;
+		</button>
+		<h3>Video</h3>
+	</div>
+	<div class="modal-body" style="max-height: none;">
+		<embed id="playerid" class="youtube" style="width:760px; height: 360px;" allowfullscreen="true" allowscriptaccess="always" quality="high" bgcolor="#000000" name="playerid" style="" src="http://www.youtube.com/v/MVbeoSPqRs4?enablejsapi=1&version=3&playerapiid=ytplayer" type="application/x-shockwave-flash">
+	</div>
+	<div class="modal-footer">
+		<a href="#" class="btn" data-dismiss="modal">Close</a>
+	</div>
 </div>
+
 
 <div id="banner">
 	<div class="main">

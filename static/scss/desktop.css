@@ -780,7 +780,7 @@ input:-moz-placeholder {
   .dropdown-menu a {
     line-height: 28px !important; }
 
-  #menu-left {
+  #menu-left, #menu-left-menu {
     margin-left: 50px !important; } }
 #page-row {
   background-color: #fff; }
@@ -805,6 +805,17 @@ input:-moz-placeholder {
 
 .nav .open .dropdown-menu {
   display: block !important; }
+
+.fade {
+  -webkit-transition: opacity 0.15s linear;
+  -moz-transition: opacity 0.15s linear;
+  -ms-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+  opacity: 0; }
+
+.fade.in {
+  opacity: 1; }
 
 /*
 ############
@@ -1084,4 +1095,9 @@ button-blue:active, .button-blue:focus {
   color: #fff;
   background-color: #BB0000;
   padding: 5px 8px;
-  float: left; }
+  float: left; 
+}
+
+.comments .row {
+    margin-left: 0;
+}

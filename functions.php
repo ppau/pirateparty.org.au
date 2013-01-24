@@ -5,8 +5,34 @@
  * @package		The Bootstrap
  * @since		1.0.0 - 05.02.2012
  */
-require_once('twitter_bootstrap_nav_walker.php');
 
+function join_page_uri()
+{
+	return get_permalink(94) ? get_permalink(94) : "#";
+}
+
+function help_us_page_uri()
+{
+	return get_permalink(65) ? get_permalink(65) : "#";
+}
+
+function donate_page_uri()
+{
+	return get_permalink(534) ? get_permalink(534) : "#";
+}
+
+function contact_page_uri()
+{
+	return get_permalink(23) ? get_permalink(23) : "#";
+}
+
+function privacy_page_uri()
+{
+	return get_permalink(816) ? get_permalink(816) : "#";
+}
+
+
+require_once('twitter_bootstrap_nav_walker.php');
 
 function static_url()
 {
@@ -30,6 +56,9 @@ function the_bootstrap_setup() {
 		$content_width = 770;
 	}
 	
+	
+	
+
 	load_theme_textdomain( 'the-bootstrap', get_template_directory() . '/lang' );
 	
 	add_theme_support( 'automatic-feed-links' );

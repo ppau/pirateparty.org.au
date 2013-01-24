@@ -13,7 +13,7 @@ tha_sidebars_before(); ?>
 
 
 				<aside style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
-					<a href="#" class="button button-orange button-become-a-member">Become a member</a>
+					<a href="<?= join_page_uri() ?>" class="button button-orange button-become-a-member">Become a member</a>
 				</aside>
 				
 				

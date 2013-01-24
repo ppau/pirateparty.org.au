@@ -33,9 +33,7 @@
 	
 	<?php tha_head_bottom(); ?>
 	
-	<!-- mark -->
 	<?php wp_head(); ?>
-	<!-- mark -->
 
 </head>
 
@@ -51,7 +49,7 @@
 		<div class="span12">
 			<header>
 				<div id="header">
-					<a id="logo" href="<?php echo site_url(); ?>">
+					<a id="logo" href="/">
 						pirate<span>party</span><br>
 						<span class="oz">australia</span>
 					</a>
@@ -109,8 +107,8 @@ $defaults = array(
 						<?php wp_nav_menu($defaults); ?>
 						
 						<ul id="menu-action" class="sf-menu hidden-phone hidden-tablet">
-							<li><a href="#" class="action left">Join us!</a></li>
-							<li><a href="#" class="action right">Help us!</a></li>
+							<li><a href="<?php echo join_page_uri() ?>" class="action left">Join us!</a></li>
+							<li><a href="<?php echo help_us_page_uri() ?>" class="action right">Help us!</a></li>
 						</ul>
 
 <?php

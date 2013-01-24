@@ -755,7 +755,7 @@ input:-moz-placeholder {
 		line-height: 28px !important;
 	}
 	
-  #menu-left {
+  #menu-left, #menu-left-menu {
   	margin-left: 50px !important;
   }
 }
@@ -788,7 +788,16 @@ input:-moz-placeholder {
 	display: none;
 }
 
-.nav .open  .dropdown-menu{
+.nav .open  .dropdown-menu {
 	display: block !important;
 }
-
+.fade{
+    -webkit-transition:opacity 0.15s linear;
+    -moz-transition:opacity 0.15s linear;
+    -ms-transition:opacity 0.15s linear;
+    -o-transition:opacity 0.15s linear;
+    transition:opacity 0.15s linear;
+    opacity:0;
+}.fade.in{
+    opacity:1;
+} 

@@ -17,9 +17,12 @@ $(function(){
 	}).trigger("change");
 
     $('.modal').on('hidden', function () {
-		$('.youtube').each(function(){
+		$('.modal-backdrop').remove();
+		$(this).find('.youtube').each(function(){
 			this.stopVideo();
 		});
+		
+		
     })
 	
 });
