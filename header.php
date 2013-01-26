@@ -71,7 +71,7 @@
 					</a>
 	
 					<div id="search" class="hidden-phone">
-						<form id="id_search_form" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>" style="padding: 0;">
+						<form id="id_search_form" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 							<input type="text" class="input-medium field-search notext" name="s" placeholder="Enter search terms here...">
 							<input type="submit" class="btn" value="search" name="submit">
 						</form>

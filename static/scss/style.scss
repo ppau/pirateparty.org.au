@@ -199,6 +199,27 @@ blockquote {
 	float:right;
 	text-align: right;
 	margin: 15px 20px 0 0;
+	min-width: 220px;
+}
+
+#header #social {
+	width: 255px;
+}
+
+#header #search form {
+	padding: 0;
+}
+
+
+
+.lt-ie8 #header #search form {
+
+	float: right;
+	max-width: 275px;
+}
+
+#header #search form input[tyle="submit"] {
+	float: right;
 }
 
 /*
@@ -236,6 +257,7 @@ blockquote {
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active,
 .dropdown-menu .active > a, .dropdown-menu .active > a:hover
 {
+	 background-color: #304C7A !important;
 	@include button_gradient($pcbluegs, $pssteel);
 	outline: 0;
 	color: #fff !important;
@@ -266,7 +288,6 @@ blockquote {
 	font-size: 20px !important;
 	color: #fff !important;
 }
-
 #menu-action a.left
 {
 	border-top: 1px solid $pssteel !important;
@@ -283,6 +304,7 @@ blockquote {
 #menu-action li,
 #menu-action li.sfVisited,
 #menu-action a:visited {
+	background-color: $pssteel;
 	@include button_gradient($pcbluegs, $pssteel);
 	font-size: 17px !important;
 	color: #fff !important;
@@ -292,19 +314,20 @@ blockquote {
 {
 	border-top: 1px solid $pssteel !important;
 	border-left: 1px solid $pssteel !important;
+	background-color: #174AA0 !important;
 }
 
 #menu-action a.right:hover, #menu-action a.right:active 
 {
 	border-top: 1px solid $pssteel !important;
 	border-right: 1px solid $pssteel !important;
+	background-color: #174AA0 !important;
 }
 
 
 #menu-action li:hover, #menu-action li.sfHover,
 #menu-action a:focus, #menu-action a:hover, #menu-action a:active, #menu-action a.active,
 {
-
 	@include button_gradient($pcbluegs, $pcbluegf);
 }
 
@@ -341,6 +364,10 @@ nav #menu-right, nav #menu-action {
 	margin-left: 15px;
 	margin-top: 15px;
 	padding: 0 0 0 0px;
+}
+
+.lt-ie8 #column {
+		margin-left: 10px;
 }
 
 #column aside {
@@ -461,7 +488,11 @@ input:-moz-placeholder {
 #banner .lower div {
 	border: 5px solid $bggrey;
 	height: 150px;
-	max-width: 280px;
+	max-width: 278px;
+}
+
+.lt-ie7 #banner .lower div {
+	max-width: 220px !important;
 }
 
 #banner .lower .t2 {
@@ -803,3 +834,6 @@ input:-moz-placeholder {
 }.fade.in{
     opacity:1;
 } 
+
+
+

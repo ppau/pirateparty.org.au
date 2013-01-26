@@ -40,6 +40,7 @@ input.button {
   border: solid 1px;
   border-color: $border-color;
   background-color: $background-color;
+  text-decoration: none;
 }
 
 @mixin button_gradient($p1, $p2) {
@@ -49,6 +50,7 @@ input.button {
   background-image: -o-linear-gradient(top, $p1, $p2);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from($p1), to($p2));
   background-image: -webkit-linear-gradient(top, $p1, $p2);
+  text-decoration: none;
 }
 
 @mixin button_gradient_3($p1, $p2, $p3, $percent, $frac) {
@@ -209,8 +211,26 @@ button-blue:active, .button-blue:focus {
 }
 
 
+.button-red, .button-red:visited {
+  /* $color, $border-color, $background-color */
+  @include button_base(#fff, #3b6aaa, #2b62ae);
+  
+  /* $p1, $p2 */
+  @include button_gradient(#679eea, #2b62ae);
+  
+  box-shadow: 0 1px 2px rgba(5, 5, 5, 0.2);
+}
 
-.button-become-a-member {
+.button-red:hover {
+  /* $p1, $p2 */
+  @include button_gradient(#679eea, #3a72c0);
+}
+
+button-red:active, .button-red:focus {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
+}
+
+.sidebar-action-item {
 	line-height: 40px;
 	margin: 0;
 	display: block;
@@ -218,3 +238,18 @@ button-blue:active, .button-blue:focus {
 	text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 1px !important;
 	font-weight: bold;
 }
+
+.icon-is2-group {
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/icons/iconsweets2/32/group.png);
+	background-position: 0px -10px;
+}
+
+.icon-is2-donate {
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/icons/iconsweets2/32/donate.png);
+	background-position: 0px -10px;
+}
+

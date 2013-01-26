@@ -13,9 +13,16 @@ tha_sidebars_before(); ?>
 
 
 				<aside style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
-					<a href="<?= join_page_uri() ?>" class="button button-orange button-become-a-member">Become a member</a>
+					<a href="<?php echo join_page_uri() ?>" class="button button-orange sidebar-action-item">
+						<i class="icon-is2-group"></i>
+						Become a member</a>
 				</aside>
 				
+				<aside style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
+					<a href="<?php echo donate_page_uri() ?>" class="button button-red sidebar-action-item">
+						<i class="icon-is2-donate"></i>
+						Donate</a>
+				</aside>
 				
 				<aside class="we-are">
 					<span>We are</span> a movement based around the core tenets of:

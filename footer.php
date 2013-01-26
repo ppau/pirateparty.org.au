@@ -35,12 +35,12 @@
 	<!-- <?php printf( __( '%d queries. %s seconds.', 'the-bootstrap' ), get_num_queries(), timer_stop(0, 3) ); ?> -->
 
 
-	<script defer src="<?= static_url() ?>js/vendor/jquery-1.8.2.min.js"></script>
-	<script defer src="<?= static_url() ?>js/vendor/jquery.easing.1.3.js"></script>
-	<script defer src="<?= static_url() ?>js/vendor/bootstrap.min.js"></script>
-	<script defer src="<?= static_url() ?>js/vendor/fancybox/jquery.fancybox-1.3.4.js"></script>
-	<script defer src="<?= static_url() ?>js/plugins.js"></script>
-	<script defer src="<?= static_url() ?>js/script.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>js/vendor/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>js/vendor/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>js/vendor/fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>js/plugins.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>js/script.js"></script>
 
 	<?php wp_footer(); ?>
 

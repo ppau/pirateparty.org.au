@@ -19,7 +19,9 @@ $(function(){
     $('.modal').on('hidden', function () {
 		$('.modal-backdrop').remove();
 		$(this).find('.youtube').each(function(){
-			this.stopVideo();
+			if (typeof this.stopVideo == 'function'){
+				this.stopVideo();
+			}
 		});
 		
 		
