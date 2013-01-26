@@ -38,16 +38,32 @@
 </head>
 
 <body <?php body_class(); ?>>
-<?php
-/*
+<?php /*
 	<img
+	class="visible-phone"
 	src="http://pirateparty.org.au/media/identity_style_guide/PNG/ppauLogo-australia.png"
-	style="position: absolute; left: 5px; top: 33px;opacity:0.4; height: 68px;"
+	style="position: absolute; left: 11px; top: 6px;opacity:0.4; height: 53px;"
 	>
-*/ ?>
+
+	<img
+	class="visible-tablet"
+	src="http://pirateparty.org.au/media/identity_style_guide/PNG/ppauLogo-australia.png"
+	style="position: absolute; left: 6px; top: 6px;opacity:0.4; height: 65px;"
+	>
+*/
+?>
 	<div class="row-fluid" id="header_real">
 		<div class="span12">
+
 			<header>
+				
+<?php /*
+<div class="center visible-desktop">
+	<img class="center"
+	src="http://pirateparty.org.au/media/identity_style_guide/PNG/ppauLogo-australia.png"
+	style="float: left; margin-top: 18px; margin-left: -323px; position: absolute; opacity:0.4; height: 120px;"
+	></div> */?>
+
 				<div id="header">
 					<a id="logo" href="/">
 						pirate<span>party</span><br>

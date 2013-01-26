@@ -262,9 +262,9 @@ blockquote {
   font-family: 'GehenSansCondensed'; }
 
 #header #logo, #header_real header #logo:visited {
-  font-size: 5em;
+  font-size: 66px;
   margin: 15px 0 0 275px;
-  padding: 13px 0 0 139px;
+  padding: 13px 0 0 136px;
   color: #0073ae;
   text-decoration: none;
   font-weight: bold; }
@@ -282,7 +282,8 @@ blockquote {
   font-family: 'GehenSans';
   display: block;
   font-size: .65em;
-  color: #333; }
+  color: #333;
+  margin-top: -3px; }
 
 #header #search {
   float: right; }
@@ -670,7 +671,7 @@ input:-moz-placeholder {
 
   #header {
     height: 65px;
-    background: url(../img/boat_normal.png) no-repeat 205px 10px !important;
+    background: url(../img/boat_normal.png) no-repeat 235px 10px !important;
     background-size: 50px !important; }
 
   #header #logo {
@@ -683,9 +684,9 @@ input:-moz-placeholder {
     font-family: 'GehenSansCondensed'; }
 
   #header #logo, #header_real header #logo:visited {
-    font-size: 1.8em;
+    font-size: 29px;
     margin: 5px 0 0 5px;
-    padding: 0 0 0 60px;
+    padding: 1px 0 0 60px;
     color: #0073ae;
     text-decoration: none;
     font-weight: bold; }
@@ -702,8 +703,7 @@ input:-moz-placeholder {
   #header #logo .oz {
     font-family: 'GehenSans';
     display: block;
-    margin-top: -10px;
-    font-size: .65em;
+    margin-top: -6px;
     color: #333; }
 
   #header #logo {
@@ -747,9 +747,9 @@ input:-moz-placeholder {
     font-family: 'GehenSansCondensed'; }
 
   #header #logo, #header_real header #logo:visited {
-    font-size: 2.7em;
+    font-size: 36px;
     margin: 5px 0 0 5px;
-    padding: 5px 0 0 75px;
+    padding: 6px 0 0 73px;
     color: #0073ae;
     text-decoration: none;
     font-weight: bold; }
@@ -766,7 +766,7 @@ input:-moz-placeholder {
   #header #logo .oz {
     font-family: 'GehenSans';
     display: block;
-    margin-top: 0;
+    margin-top: -1px;
     font-size: .60em;
     color: #333;
     letter-spacing: 1px; } }
@@ -1095,9 +1095,4 @@ button-blue:active, .button-blue:focus {
   color: #fff;
   background-color: #BB0000;
   padding: 5px 8px;
-  float: left; 
-}
-
-.comments .row {
-    margin-left: 0;
-}
+  float: left; }
