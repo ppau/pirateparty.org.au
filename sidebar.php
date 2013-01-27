@@ -34,6 +34,13 @@ tha_sidebars_before(); ?>
 					</ul>
 				</aside>
 
+				<aside>
+					<header>Pirate Party TV</header>
+					<p>Live <span data-countdown="201101">Sunday 9pm AEST</span> | Sunday 9pm AEST</p>
+					<div><a href="#" class="btn btn-primary">Watch latest episode</a></div>
+					<p><a href="#" class="btn btn-primary">previous episodes</a></p>
+				</aside>
+
 		<?php tha_sidebar_top();
 		
 		if ( ! dynamic_sidebar( 'main' ) ) {
