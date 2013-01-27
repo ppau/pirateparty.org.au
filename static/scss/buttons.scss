@@ -211,19 +211,20 @@ button-blue:active, .button-blue:focus {
 }
 
 
+
 .button-red, .button-red:visited {
   /* $color, $border-color, $background-color */
-  @include button_base(#fff, #3b6aaa, #2b62ae);
+  @include button_base(#fff, #A83A3A, #AD2B2B);
   
   /* $p1, $p2 */
-  @include button_gradient(#679eea, #2b62ae);
+  @include button_gradient(#E86868, #AD2B2B);
   
   box-shadow: 0 1px 2px rgba(5, 5, 5, 0.2);
 }
 
 .button-red:hover {
   /* $p1, $p2 */
-  @include button_gradient(#679eea, #3a72c0);
+  @include button_gradient(#E86868, #BF3B3B);
 }
 
 button-red:active, .button-red:focus {
@@ -233,23 +234,37 @@ button-red:active, .button-red:focus {
 .sidebar-action-item {
 	line-height: 40px;
 	margin: 0;
-	display: block;
 	font-size: 1.2em;
 	text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 1px !important;
 	font-weight: bold;
 }
 
-.icon-is2-group {
+
+@mixin icon_base_32($filename){
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
 	width: 32px;
 	height: 32px;
-	background-image: url(../img/icons/iconsweets2/32/group.png);
+	background-image: url(../img/icons/iconsweets2/32/#{$filename});
 	background-position: 0px -10px;
+	margin: 1px 5px 0px 5px;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-repeat: no-repeat;
 }
 
-.icon-is2-donate {
-	width: 32px;
-	height: 32px;
-	background-image: url(../img/icons/iconsweets2/32/donate.png);
-	background-position: 0px -10px;
+.is2-group {
+	@include icon_base_32("group.png");
 }
 
+.is2-donate {
+	@include icon_base_32("donate.png");
+}
+
+.lt-ie10 .is2-donate, .lt-ie10 .is2-group
+{
+	margin: 1px 5px 0px 1px;
+}

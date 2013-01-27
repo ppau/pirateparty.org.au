@@ -471,6 +471,10 @@ nav #menu-right, nav #menu-action {
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); }
 
+#column #join-donate {
+  margin: 0 0 15px 0;
+  padding-bottom: 10px; }
+
 #column aside p {
   margin-top: 0;
   padding: 0 10px;
@@ -1091,27 +1095,27 @@ button-blue:active, .button-blue:focus {
   /* $color, $border-color, $background-color */
   color: white !important;
   border: solid 1px;
-  border-color: #3b6aaa;
-  background-color: #2b62ae;
+  border-color: #a83a3a;
+  background-color: #ad2b2b;
   text-decoration: none;
   /* $p1, $p2 */
-  background-image: linear-gradient(top, #679eea, #2b62ae);
-  background-image: -moz-linear-gradient(top, #679eea, #2b62ae);
-  background-image: -ms-linear-gradient(top, #679eea, #2b62ae);
-  background-image: -o-linear-gradient(top, #679eea, #2b62ae);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#679eea), to(#2b62ae));
-  background-image: -webkit-linear-gradient(top, #679eea, #2b62ae);
+  background-image: linear-gradient(top, #e86868, #ad2b2b);
+  background-image: -moz-linear-gradient(top, #e86868, #ad2b2b);
+  background-image: -ms-linear-gradient(top, #e86868, #ad2b2b);
+  background-image: -o-linear-gradient(top, #e86868, #ad2b2b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e86868), to(#ad2b2b));
+  background-image: -webkit-linear-gradient(top, #e86868, #ad2b2b);
   text-decoration: none;
   box-shadow: 0 1px 2px rgba(5, 5, 5, 0.2); }
 
 .button-red:hover {
   /* $p1, $p2 */
-  background-image: linear-gradient(top, #679eea, #3a72c0);
-  background-image: -moz-linear-gradient(top, #679eea, #3a72c0);
-  background-image: -ms-linear-gradient(top, #679eea, #3a72c0);
-  background-image: -o-linear-gradient(top, #679eea, #3a72c0);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#679eea), to(#3a72c0));
-  background-image: -webkit-linear-gradient(top, #679eea, #3a72c0);
+  background-image: linear-gradient(top, #e86868, #bf3b3b);
+  background-image: -moz-linear-gradient(top, #e86868, #bf3b3b);
+  background-image: -ms-linear-gradient(top, #e86868, #bf3b3b);
+  background-image: -o-linear-gradient(top, #e86868, #bf3b3b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e86868), to(#bf3b3b));
+  background-image: -webkit-linear-gradient(top, #e86868, #bf3b3b);
   text-decoration: none; }
 
 button-red:active, .button-red:focus {
@@ -1120,22 +1124,42 @@ button-red:active, .button-red:focus {
 .sidebar-action-item {
   line-height: 40px;
   margin: 0;
-  display: block;
   font-size: 1.2em;
   text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 1px !important;
   font-weight: bold; }
 
-.icon-is2-group {
+.is2-group {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
   width: 32px;
   height: 32px;
   background-image: url(../img/icons/iconsweets2/32/group.png);
-  background-position: 0px -10px; }
+  background-position: 0px -10px;
+  margin: 1px 5px 0px 5px;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-repeat: no-repeat; }
 
-.icon-is2-donate {
+.is2-donate {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
   width: 32px;
   height: 32px;
   background-image: url(../img/icons/iconsweets2/32/donate.png);
-  background-position: 0px -10px; }
+  background-position: 0px -10px;
+  margin: 1px 5px 0px 5px;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-repeat: no-repeat; }
+
+.lt-ie10 .is2-donate, .lt-ie10 .is2-group {
+  margin: 1px 5px 0px 1px; }
 
 /*
 ############

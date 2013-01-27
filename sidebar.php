@@ -12,17 +12,17 @@ tha_sidebars_before(); ?>
 	<section id="secondary" class="widget-area" role="complementary">
 
 
-				<aside style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
+				<div id="join-donate" style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
 					<a href="<?php echo join_page_uri() ?>" class="button button-orange sidebar-action-item">
-						<i class="icon-is2-group"></i>
-						Become a member</a>
-				</aside>
-				
-				<aside style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
+						<i class="is2-group"></i>
+						Join us</a>
+						
 					<a href="<?php echo donate_page_uri() ?>" class="button button-red sidebar-action-item">
-						<i class="icon-is2-donate"></i>
+						<i class="is2-donate"></i>
 						Donate</a>
-				</aside>
+						
+				</div>
+				
 				
 				<aside class="we-are">
 					<span>We are</span> a movement based around the core tenets of:
@@ -33,7 +33,6 @@ tha_sidebars_before(); ?>
 						<li>government transparency.</li>
 					</ul>
 				</aside>
-
 
 		<?php tha_sidebar_top();
 		
