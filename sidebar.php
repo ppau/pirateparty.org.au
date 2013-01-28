@@ -61,6 +61,10 @@ tha_sidebars_before(); ?>
 						  </p>
 						</div>
 					</div>
+					<div class="centre" style="background-color: #ddd; margin: 0 10px;padding: 5px;">
+						<a href="#" class="btn btn-primary btn-large">Live now!</a>
+					</div>
+					
 					
 					<div id="ppautv-player"><a href="#" class="btn btn-primary">Watch latest episode</a></div>
 					<p class="centre"><a href="#" class="btn btn-primary">previous episodes</a></p>

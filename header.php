@@ -23,7 +23,7 @@
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title><?php wp_title( '&ndash;', true, 'right' ); ?></title>
+	<title><?php wp_title('-', true, 'right' ); ?></title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 

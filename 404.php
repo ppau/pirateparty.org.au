@@ -10,7 +10,8 @@
 
 get_header(); ?>
 
-<section id="primary" class="span8">
+
+<section id="page" class="span9" data-role="page">
 
 	<?php tha_content_before(); ?>
 	<div id="content" role="main">
