@@ -845,6 +845,41 @@ input:-moz-placeholder {
 .fade.in {
   opacity: 1; }
 
+#ppautv-player {
+  background: url(../img/elements/ppautv.png) no-repeat;
+  width: 100%;
+  height: 127px;
+  margin: 15px;
+  padding-top: 0px;
+  text-align: center; }
+
+#ppautv-player a {
+  margin-top: 50px; }
+
+#ppautv-countdown {
+  font-size: 20px;
+  color: red;
+  font-wieght: bold; }
+
+div#clock {
+  color: white;
+  overflow: hidden;
+  text-align: center; }
+
+div#clock p {
+  background: #333;
+  display: inline-block; }
+
+div#clock p span {
+  display: block;
+  font-weight: bold;
+  padding: 5px 0 0; }
+
+div#clock div.space {
+  color: #ccc;
+  display: block;
+  float: left; }
+
 /*
 ############
 ##

@@ -37,12 +37,30 @@
 
 	<script type="text/javascript" src="<?= static_url() ?>js/vendor/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="<?= static_url() ?>js/vendor/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>js/vendor/jquery.countdown.min.js"></script>
 	<script type="text/javascript" src="<?= static_url() ?>js/vendor/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?= static_url() ?>js/vendor/fancybox/jquery.fancybox-1.3.4.js"></script>
 	<script type="text/javascript" src="<?= static_url() ?>js/plugins.js"></script>
 	<script type="text/javascript" src="<?= static_url() ?>js/script.js"></script>
 
 	<?php wp_footer(); ?>
+
+
+<script type="text/javascript" charset="utf-8">
+
+
+var dst_offset = "<?php 
+$tz = new DateTimeZone("Australia/Sydney");
+if (count($tz->getTransitions(time())) > 0)
+{
+	echo 11;
+}else{
+	echo 10;
+}
+?>:00";
+</script>
+
+
 
 </body>
 </html>

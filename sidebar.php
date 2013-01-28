@@ -36,9 +36,34 @@ tha_sidebars_before(); ?>
 
 				<aside>
 					<header>Pirate Party TV</header>
-					<p>Live <span data-countdown="201101">Sunday 9pm AEST</span> | Sunday 9pm AEST</p>
-					<div><a href="#" class="btn btn-primary">Watch latest episode</a></div>
-					<p><a href="#" class="btn btn-primary">previous episodes</a></p>
+					
+					<p>Our weekly show talking pirate politics from the Australian perspective. Hosted by Sam Kearns.</p>
+					
+					<div style="background-color: #ddd; margin: 0 10px;padding: 5px;">
+						<p class="centre"><strong>Next broadcast</strong>: Sunday 9pm AEST</p>
+	
+						<div id="clock">
+						  <p>
+						    <span id="daysLeft"></span>
+						    days
+						  </p>
+						  <p>
+						    <span id="hours"></span>
+						    hours
+						  </p>
+						  <p>
+						    <span id="minutes"></span>
+						    mins
+						  </p>
+						  <p>
+						    <span id="seconds"></span>
+						    secs
+						  </p>
+						</div>
+					</div>
+					
+					<div id="ppautv-player"><a href="#" class="btn btn-primary">Watch latest episode</a></div>
+					<p class="centre"><a href="#" class="btn btn-primary">previous episodes</a></p>
 				</aside>
 
 		<?php tha_sidebar_top();
