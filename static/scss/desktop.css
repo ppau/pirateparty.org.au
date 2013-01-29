@@ -866,6 +866,10 @@ div#clock {
   overflow: hidden;
   text-align: center; }
 
+.lt-ie8 div#clock p {
+  display: inline !important;
+  float: left !important; }
+
 div#clock p {
   background: #333;
   display: inline-block; }
