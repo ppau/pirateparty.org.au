@@ -22,7 +22,6 @@ get_header(); ?>
 		
 		the_post();
 		get_template_part( '/partials/content', 'page' );
-		comments_template();
 
 		tha_content_bottom(); ?>
 	</div><!-- #content -->
