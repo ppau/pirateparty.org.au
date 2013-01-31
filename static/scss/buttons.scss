@@ -264,7 +264,13 @@ button-red:active, .button-red:focus {
 	@include icon_base_32("donate.png");
 }
 
-.lt-ie10 .is2-donate, .lt-ie10 .is2-group
+.is2-tv {
+	@include icon_base_32("tv.png");
+	background-position: 0px 0px;
+	margin-top: -6px;
+}
+
+.lt-ie10 .is2-donate, .lt-ie10 .is2-group, .lt-ie10 .is2-tv
 {
 	margin: 1px 5px 0px 1px;
 }

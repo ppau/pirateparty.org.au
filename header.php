@@ -31,6 +31,7 @@
 	
 	<script src="<?= static_url() ?>js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
 	<link rel="shortcut icon" href="/favicon.ico"/>
+	<link rel="image_src" href="http://pirateparty.org.au/wp-content/themes/ppauwp/static/img/logo.png"/>
 	
 	<?php tha_head_bottom(); ?>
 	

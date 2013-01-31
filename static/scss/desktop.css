@@ -825,9 +825,6 @@ input:-moz-placeholder {
 .center, .centre {
   text-align: center; }
 
-#page #comments .comment {
-  margin-left: 0 !important; }
-
 .nav .dropdown .dropdown-menu {
   display: none; }
 
@@ -846,15 +843,7 @@ input:-moz-placeholder {
   opacity: 1; }
 
 #ppautv-player {
-  background: url(../img/elements/ppautv.png) no-repeat;
-  width: 100%;
-  height: 127px;
-  margin: 15px;
-  padding-top: 0px;
   text-align: center; }
-
-#ppautv-player a {
-  margin-top: 50px; }
 
 #ppautv-countdown {
   font-size: 20px;
@@ -883,6 +872,80 @@ div#clock div.space {
   color: #ccc;
   display: block;
   float: left; }
+
+#comments #comments-title {
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 28px; }
+
+#comments .comment {
+  margin-left: 0 !important;
+  list-style: none;
+  font-size: 12px; }
+
+#comments p {
+  margin-bottom: 5px; }
+
+#comments footer {
+  min-height: 15px;
+  margin-left: 2%; }
+
+#comments .commentlist article {
+  padding: 10px; }
+
+#comments .commentlist li.thread-odd {
+  background-color: #EEEEEE;
+  border-bottom: 1px dotted #CCCCCC; }
+
+#comments img.avatar {
+  background-color: #F3F3F3;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px 3px 3px 3px;
+  display: block;
+  float: left;
+  margin: 0 8px 1px 0;
+  padding: 3px; }
+
+#respond {
+  background-color: #fff; }
+
+#respond #reply-title legend {
+  font-size: 16px; }
+
+#respond, #respond label {
+  font-size: 13px !important; }
+
+#commentform .controls pre {
+  font-size: 12px !important; }
+
+#comments [class*="span"] {
+  min-height: 0px !important; }
+
+#respond #reply-title {
+  overflow: auto;
+  clear: both; }
+
+#respond h3 {
+  margin-bottom: 0; }
+
+#respond h3 legend, #respond h3 small {
+  float: left;
+  width: auto;
+  margin-bottom: 0; }
+
+#respond .form-actions {
+  margin: 0; }
+
+#respond h3 small {
+  margin: 20px 0px 0px 15px;
+  font-size: 12px; }
+
+#respond .logged-in-as {
+  float: right;
+  margin: -25px 0 0; }
+
+#respond .control-group {
+  margin-bottom: 7px; }
 
 /*
 ############
@@ -1197,7 +1260,24 @@ button-red:active, .button-red:focus {
   vertical-align: text-top;
   background-repeat: no-repeat; }
 
-.lt-ie10 .is2-donate, .lt-ie10 .is2-group {
+.is2-tv {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/icons/iconsweets2/32/tv.png);
+  background-position: 0px -10px;
+  margin: 1px 5px 0px 5px;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  margin-top: -6px; }
+
+.lt-ie10 .is2-donate, .lt-ie10 .is2-group, .lt-ie10 .is2-tv {
   margin: 1px 5px 0px 1px; }
 
 /*

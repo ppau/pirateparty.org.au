@@ -15,11 +15,13 @@ tha_sidebars_before(); ?>
 				<div id="join-donate" style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
 					<a href="<?php echo join_page_uri() ?>" class="button button-orange sidebar-action-item">
 						<i class="is2-group"></i>
-						Join us</a>
+						Join us
+					</a>
 						
 					<a href="<?php echo donate_page_uri() ?>" class="button button-red sidebar-action-item">
 						<i class="is2-donate"></i>
-						Donate</a>
+						Donate
+					</a>
 						
 				</div>
 				
@@ -37,7 +39,10 @@ tha_sidebars_before(); ?>
 				<aside>
 					<header>Pirate Party TV</header>
 					
-					<p>Our weekly show talking pirate politics from the Australian perspective. Hosted by Sam Kearns.</p>
+					<p>
+						Our weekly show talking pirate politics from the Australian perspective. Hosted by Sam Kearns.
+						<a href="<?php echo get_permalink(get_page_by_path('/category/webcasts/')) ?>">Previous episodes and downloads.</a>
+					</p>
 					
 					<div style="background-color: #ddd; margin: 0 10px;padding: 5px;">
 						<p class="centre"><strong>Next broadcast</strong>: Sunday 9pm AEST</p>
@@ -60,35 +65,26 @@ tha_sidebars_before(); ?>
 						    secs
 						  </p>
 						</div>
+						
+						<div id="ppautv-player"><a href="#" class="btn btn-primary">Watch latest episode</a></div>
 					</div>
 					<div class="centre" style="background-color: #ddd; margin: 0 10px;padding: 5px;">
-						<a href="#" class="btn btn-primary btn-large">Live now!</a>
+						
+						<a href="#" class="button button-red sidebar-action-item">
+							<i class="is2-tv"></i>
+							On Air
+						</a>
+
 					</div>
 					
 					
-					<div id="ppautv-player"><a href="#" class="btn btn-primary">Watch latest episode</a></div>
-					<p class="centre"><a href="#" class="btn btn-primary">previous episodes</a></p>
+					
+
 				</aside>
 
 		<?php tha_sidebar_top();
 		
-		if ( ! dynamic_sidebar( 'main' ) ) {
-			the_widget( 'WP_Widget_Archives', array(
-				'count'		=>	0,
-				'dropdown'	=>	0
-			), array(
-				'before_widget'	=>	'<aside id="archives" class="widget well widget_archives">',
-				'after_widget'	=>	'</aside>',
-				'before_title'	=>	'<h3 class="widget-title">',
-				'after_title'	=>	'</h3>',
-			) );
-			the_widget( 'WP_Widget_Meta', array(), array(
-				'before_widget'	=>	'<aside id="meta" class="widget well widget_meta">',
-				'after_widget'	=>	'</aside>',
-				'before_title'	=>	'<h3 class="widget-title">',
-				'after_title'	=>	'</h3>',
-			) );
-		} // end sidebar widget area
+		dynamic_sidebar( 'main' );
 		
 		tha_sidebar_bottom(); ?>
 	</section><!-- #secondary .widget-area -->

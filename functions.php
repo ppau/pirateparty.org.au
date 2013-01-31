@@ -544,7 +544,7 @@ function the_bootstrap_comments_list() {
 	if ( have_comments() ) : ?>
 		<div id="comments">
 			<h2 id="comments-title">
-				<?php printf( _n( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'the-bootstrap' ),
+				<?php printf( _n( 'One comment on &ldquo;%2$s&rdquo;', '%1$s comments on &ldquo;%2$s&rdquo;', get_comments_number(), 'the-bootstrap' ),
 						number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' ); ?>
 			</h2>
 		

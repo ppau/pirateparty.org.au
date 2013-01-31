@@ -1,5 +1,5 @@
 
-
+<?php /*
 <div class="modal hide fade" tabindex="-1" id="watch-pres" style="width: auto; margin-left: -360px;">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
@@ -13,7 +13,7 @@
 	<div class="modal-footer">
 		<a href="#" class="btn" data-dismiss="modal">Close</a>
 	</div>
-</div>
+</div>*/ ?>
 
 
 <div id="banner">
@@ -21,8 +21,7 @@
 		<p class="first centre"><strong>We're officially registered!</strong></p>
 		<p class="first center" style="font-size: 0.8em">
 			<span>
-				<a href="#watch-pres" role="button" data-toggle="modal" class="button button-green" style="font-size: 16px;line-height:19px;padding: 9px 14px;"><strong>Watch the President's message</strong></a>
-				<a href="#" class="button button-blue" style="font-size: 16px;line-height:19px;padding: 9px 14px;"><strong>Read the announcement</strong></a>
+				<a href="<?php echo get_permalink(get_page_by_path('/2013/01/21/pirate-party-australia-successfully-registers-for-federal-elections/')) ?>" class="button button-green" style="font-size: 16px;line-height:20px;padding: 10px 14px;"><strong>Read the announcement</strong></a>
 			</span>
 		</p>
 
