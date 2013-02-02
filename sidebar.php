@@ -18,7 +18,7 @@ tha_sidebars_before(); ?>
 						Join us
 					</a>
 						
-					<a href="<?php echo donate_page_uri() ?>" class="button button-red sidebar-action-item">
+					<a href="<?php echo donate_page_uri() ?>" class="button button-red sidebar-action-item pig">
 						<i class="is2-donate"></i>
 						Donate
 					</a>
@@ -66,19 +66,14 @@ tha_sidebars_before(); ?>
 						  </p>
 						</div>
 						
-						<div id="ppautv-player"><a href="#" class="btn btn-primary">Watch latest episode</a></div>
 					</div>
-					<div class="centre" style="background-color: #ddd; margin: 0 10px;padding: 5px;">
-						
+					
+					<div class="centre" style="background-color: #ddd; margin: 0 10px; padding: 0 10px 10px;">
 						<a href="#" class="button button-red sidebar-action-item">
 							<i class="is2-tv"></i>
-							On Air
+							On Air Now!
 						</a>
-
 					</div>
-					
-					
-					
 
 				</aside>
 

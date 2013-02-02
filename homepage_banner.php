@@ -17,6 +17,8 @@
 
 
 <div id="banner">
+	
+	
 	<div class="main">
 		<p class="first centre"><strong>We're officially registered!</strong></p>
 		<p class="first center" style="font-size: 0.8em">
@@ -24,14 +26,13 @@
 				<a href="<?php echo get_permalink(get_page_by_path('/2013/01/21/pirate-party-australia-successfully-registers-for-federal-elections/')) ?>" class="button button-green" style="font-size: 16px;line-height:20px;padding: 10px 14px;"><strong>Read the announcement</strong></a>
 			</span>
 		</p>
-
 	</div>
 	
 	<div class="row-fluid lower">
 		<div class="span4 t3">
 			<p style="margin-top: 15px;"><strong>The Government wants<br>to spy on you 24/7</strong></p>
 			<p>Sign our Senate petition against data retention</p>
-			<p class="read-more"><a href="#" class="btn btn-primary">sign now</a></p>
+			<p class="read-more"><a href="<?php echo get_permalink(get_page_by_path('/natsecinquiry-petition/')) ?>" class="btn btn-primary">sign now</a></p>
 		</div>
 		<div class="span4 t2">
 			<p class="c">It's never too late to</p>

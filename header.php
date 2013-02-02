@@ -94,7 +94,7 @@
 							<span>Connect with us<br></span>
 							<a href="https://www.facebook.com/piratepartyau"><img src="<?= static_url() ?>img/icons/social/facebook_32.png"></a>
 							<a href="https://twitter.com/piratepartyau"><img src="<?= static_url() ?>img/icons/social/twitter_32.png"></a>
-							<a href="https://plus.google.com/u/0/b/114061517635295816057/114061517635295816057/posts"><img src="<?= static_url() ?>img/icons/social/google_plus_32.png"></a>
+							<a href="https://plus.google.com/u/0/b/114061517635295816057/114061517635295816057/posts"><img src="<?= static_url() ?>img/icons/social/google_plus_2_32.png"></a>
 							<a href="http://www.youtube.com/user/PiratePartyAu"><img src="<?= static_url() ?>img/icons/social/youtube_32x32.png"></a>
 							<a href="http://pirateparty.org.au/feed"><img src="<?= static_url() ?>img/icons/social/rss_32.png"></a>
 						</div>

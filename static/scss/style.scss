@@ -493,7 +493,7 @@ input:-moz-placeholder {
 #banner .lower div {
 	border: 5px solid $bggrey;
 	height: 150px;
-	max-width: 278px;
+	
 }
 
 .lt-ie7 #banner .lower div {
@@ -523,8 +523,10 @@ input:-moz-placeholder {
 }
 
 #banner .lower .t3 {
-	background: url(../img/banner/ozlog.png) no-repeat;
+	background: #000 url(../img/banner/left_jan_2013.png) no-repeat;
+	background-position: 100% 50%;
 	text-align: center;
+	padding-right: 85px;
 }
 
 #banner .lower .c {
@@ -638,6 +640,7 @@ input:-moz-placeholder {
 	margin: 0 auto;
 }
 
+/* mobile */
 @media screen and (max-width: 768px) {
 
 	#page {
@@ -708,6 +711,11 @@ input:-moz-placeholder {
 	body {
 		min-width: 0px !important;
 	}
+	
+	#banner .t1, #banner .t2, #banner .t3 {
+		margin-bottom: 10px !important;
+	}
+	
 }
 
 @media (max-width: 1120px) {
@@ -719,6 +727,7 @@ input:-moz-placeholder {
   }
 }
 
+/* tablet */
 @media (min-width: 768px) and (max-width: 979px) {
 	#id_search_form { display: none; }
 	#header_real header {
@@ -778,7 +787,16 @@ input:-moz-placeholder {
 		color: #333;
 		letter-spacing:1px;
 	}
+	
 
+}
+
+@media (min-width: 768px) and (max-width: 1144px) {
+	#banner .t3 {
+		background: #000 url(../img/banner/left_jan_2013_dark.png) no-repeat !important;
+		background-position: 100% 50% !important;
+		padding-right: 0 !important;
+	}
 }
 
 @media (min-width: 979px) {

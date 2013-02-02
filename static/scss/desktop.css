@@ -577,8 +577,7 @@ input:-moz-placeholder {
 
 #banner .lower div {
   border: 5px solid #eaeaea;
-  height: 150px;
-  max-width: 278px; }
+  height: 150px; }
 
 .lt-ie7 #banner .lower div {
   max-width: 220px !important; }
@@ -600,8 +599,10 @@ input:-moz-placeholder {
   text-align: center; }
 
 #banner .lower .t3 {
-  background: url(../img/banner/ozlog.png) no-repeat;
-  text-align: center; }
+  background: black url(../img/banner/left_jan_2013.png) no-repeat;
+  background-position: 100% 50%;
+  text-align: center;
+  padding-right: 85px; }
 
 #banner .lower .c {
   font-size: 20px; }
@@ -682,6 +683,7 @@ input:-moz-placeholder {
   max-width: 1200px;
   margin: 0 auto; }
 
+/* mobile */
 @media screen and (max-width: 768px) {
   #page {
     padding-right: 15px !important; }
@@ -738,13 +740,17 @@ input:-moz-placeholder {
     margin-left: 10px !important; }
 
   body {
-    min-width: 0px !important; } }
+    min-width: 0px !important; }
+
+  #banner .t1, #banner .t2, #banner .t3 {
+    margin-bottom: 10px !important; } }
 @media (max-width: 1120px) {
   #header {
     background-image: none; }
 
   #header #logo {
     margin-left: 15px; } }
+/* tablet */
 @media (min-width: 768px) and (max-width: 979px) {
   #id_search_form {
     display: none; }
@@ -798,6 +804,11 @@ input:-moz-placeholder {
     font-size: .60em;
     color: #333;
     letter-spacing: 1px; } }
+@media (min-width: 768px) and (max-width: 1144px) {
+  #banner .t3 {
+    background: black url(../img/banner/left_jan_2013_dark.png) no-repeat !important;
+    background-position: 100% 50% !important;
+    padding-right: 0 !important; } }
 @media (min-width: 979px) {
   ul.nav li.dropdown ul.dropdown-menu {
     margin-top: -1px; }
@@ -1226,7 +1237,7 @@ button-red:active, .button-red:focus {
 .sidebar-action-item {
   line-height: 40px;
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 1px !important;
   font-weight: bold; }
 
@@ -1280,6 +1291,13 @@ button-red:active, .button-red:focus {
 .lt-ie10 .is2-donate, .lt-ie10 .is2-group, .lt-ie10 .is2-tv {
   margin: 1px 5px 0px 1px; }
 
+@media (min-width: 768px) and (max-width: 1144px) {
+  #column #join-donate a {
+    display: block;
+    margin-bottom: 10px; } }
+@media (min-width: 1144px) {
+  #column #join-donate a.pig {
+    float: right; } }
 /*
 ############
 ##

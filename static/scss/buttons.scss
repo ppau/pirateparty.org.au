@@ -234,7 +234,7 @@ button-red:active, .button-red:focus {
 .sidebar-action-item {
 	line-height: 40px;
 	margin: 0;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 1px !important;
 	font-weight: bold;
 }
@@ -273,4 +273,20 @@ button-red:active, .button-red:focus {
 .lt-ie10 .is2-donate, .lt-ie10 .is2-group, .lt-ie10 .is2-tv
 {
 	margin: 1px 5px 0px 1px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1144px) {
+	#column #join-donate a {
+		display: block;
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 1144px) {
+	#column #join-donate a.pig {
+		float: right;
+	}
+
 }
