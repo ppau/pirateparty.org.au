@@ -34,11 +34,9 @@
 			<p>Sign our Senate petition against data retention</p>
 			<p class="read-more"><a href="<?php echo get_permalink(get_page_by_path('/natsecinquiry-petition/')) ?>" class="btn btn-primary">sign now</a></p>
 		</div>
-		<div class="span4 t2">
-			<p class="c">It's never too late to</p>
-			<p class="c">stop bad laws.</p>
-			<p class="c" style="margin: 12px 5px;">Reject ACTA!</p>
-			<p class="read-more"><a href="#" class="btn btn-primary">read more</a></p>
+		<div class="span4 t2 centre">
+			<p><strong>Webcasts!</strong></p>
+			<p class="read-more" style="margin-top: 55px;"><a href="<?php echo get_permalink(get_page_by_path('/category/webcasts/')) ?>" class="btn btn-primary">Listen or download</a></p>
 		</div>
 		<div class="span4 t1 last">
 			<p style="margin-top: 55px;"><strong>FOI laws are broken</strong></p>

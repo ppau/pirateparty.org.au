@@ -45,36 +45,8 @@ tha_sidebars_before(); ?>
 					</p>
 					
 					<div style="background-color: #ddd; margin: 0 10px;padding: 5px;">
-						<p class="centre"><strong>Next broadcast</strong>: Sunday 9pm AEST</p>
-	
-						<div id="clock">
-						  <p>
-						    <span id="daysLeft"></span>
-						    days
-						  </p>
-						  <p>
-						    <span id="hours"></span>
-						    hours
-						  </p>
-						  <p>
-						    <span id="minutes"></span>
-						    mins
-						  </p>
-						  <p>
-						    <span id="seconds"></span>
-						    secs
-						  </p>
-						</div>
-						
-					</div>
-					
-					<div class="centre" style="background-color: #ddd; margin: 0 10px; padding: 0 10px 10px;">
-						<a href="#" class="button button-red sidebar-action-item">
-							<i class="is2-tv"></i>
-							On Air Now!
-						</a>
-					</div>
-
+						<p class="centre"><strong>Next broadcast</strong></p>
+						<p class="centre" style="font-size: 24px;">Sunday 9pm AEST</p>
 				</aside>
 
 		<?php tha_sidebar_top();

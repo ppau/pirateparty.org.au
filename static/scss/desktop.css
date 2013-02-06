@@ -583,16 +583,12 @@ input:-moz-placeholder {
   max-width: 220px !important; }
 
 #banner .lower .t2 {
-  background: url(../img/banner/acta.png) no-repeat;
-  text-align: right; }
+  background: url(../img/banner/ppautv.png) no-repeat;
+  background-position: 50% 50%; }
 
 #banner .lower .t2 p {
-  margin: 0 5px 0 0; }
-
-#banner .lower .t2 .read-more {
-  position: relative;
-  right: 0px;
-  bottom: 0px; }
+  margin-top: 15px;
+  font-size: 1.4em; }
 
 #banner .lower .t1 {
   background: url(../img/banner/redacted.png) no-repeat;
@@ -605,7 +601,7 @@ input:-moz-placeholder {
   padding-right: 85px; }
 
 #banner .lower .c {
-  font-size: 20px; }
+  font-size: 18px; }
 
 #banner .lower .last {
   margin-right: 0; }
@@ -957,6 +953,14 @@ div#clock div.space {
 
 #respond .control-group {
   margin-bottom: 7px; }
+
+#menu-footer {
+  list-style: none;
+  overflow: auto; }
+
+#menu-footer li {
+  float: left;
+  margin-right: 15px; }
 
 /*
 ############

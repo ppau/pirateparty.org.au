@@ -116,6 +116,7 @@ function the_bootstrap_setup() {
 	register_nav_menus( array(
 		'primary_left' => __( 'Main Menu Left', $themename ),
 		'primary_right' => __( 'Main Menu Right', $themename ),
+		'footer' => __('Footer menu', $themename)  
 	) );
 	
 } // the_bootstrap_setup
