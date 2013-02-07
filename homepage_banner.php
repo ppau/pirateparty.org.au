@@ -39,9 +39,9 @@
 			<p class="read-more" style="margin-top: 60px;"><a href="<?php echo get_permalink(get_page_by_path('/category/webcasts/')) ?>" class="btn btn-primary">Listen or download</a></p>
 		</div>
 		<div class="span4 t1 last">
-			<p style="margin-top: 55px;"><strong>FOI laws are broken</strong></p>
-			<p>We only get black pieces of paper</p>
-			<p class="read-more"><a href="#" class="btn btn-primary">read more</a></p>
+			<p style="margin-top: 25px;"><strong>Get our press releases</strong></p>
+			<p>straight to your inbox!</p>
+			<p class="read-more"><a href="<?php echo get_permalink(get_page_by_path('/press-releases-list/')) ?>" class="btn btn-primary">read more</a></p>
 		</div>
 	</div>
 </div>

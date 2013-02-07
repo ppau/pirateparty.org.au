@@ -30,8 +30,8 @@
 	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 	
 	<script src="<?= static_url() ?>js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
-	<link rel="shortcut icon" href="/favicon.ico"/>
-	<link rel="image_src" href="http://pirateparty.org.au/wp-content/themes/ppauwp/static/img/logo.png"/>
+	<link rel="shortcut icon" href="<?= static_url() ?>favicon.ico"/>
+	<link rel="image_src" href="<?= static_url() ?>img/logo.png"/>
 	
 	<?php tha_head_bottom(); ?>
 	

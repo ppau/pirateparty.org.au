@@ -505,14 +505,19 @@ input:-moz-placeholder {
 	background-position: 50% 50%;
 }
 
-#banner .lower .t2 p {
+#banner .lower .t2 p{
 	margin-top: 15px;
 	font-size: 1.4em;
 }
 
 #banner .lower .t1 {
-	background: url(../img/banner/redacted.png) no-repeat;
+	background: #000 url(../img/banner/right_jan_2013.png) no-repeat;
+	background-position: 100% 50%;
 	text-align: center;
+}
+
+#banner .lower .t1 p {
+	margin-top: 15px;
 }
 
 #banner .lower .t3 {
