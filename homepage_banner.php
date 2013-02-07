@@ -41,7 +41,9 @@
 		<div class="span4 t1 last">
 			<p style="margin-top: 25px;"><strong>Get our press releases</strong></p>
 			<p>straight to your inbox!</p>
-			<p class="read-more"><a href="<?php echo get_permalink(get_page_by_path('/press-releases-list/')) ?>" class="btn btn-primary">read more</a></p>
+			<p class="read-more">
+				<a href="<?php echo get_permalink(get_page_by_path('/press-releases-list/')) ?>" class="btn btn-primary">find out more</a>
+			</p>
 		</div>
 	</div>
 </div>

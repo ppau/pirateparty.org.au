@@ -596,7 +596,8 @@ input:-moz-placeholder {
   text-align: center; }
 
 #banner .lower .t1 p {
-  margin-top: 15px; }
+  margin-top: 5px;
+  font-size: 1.2em; }
 
 #banner .lower .t3 {
   background: black url(../img/banner/left_jan_2013.png) no-repeat;
