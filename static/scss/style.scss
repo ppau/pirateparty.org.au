@@ -572,13 +572,17 @@ input:-moz-placeholder {
 	text-align: center;	
 }
 
-.news-header, #page article .entry-meta, #page article .entry-footer, .footer-menu {
+.news-header, #page article .entry-meta, #page article .entry-footer {
 	margin: 10px 0;
 	border: 5px solid $bggrey;
 	background-color: $bggrey;
 	font-size: 0.9em;
 }
 
+.footer-menu {
+	margin: 10px 0;
+	font-size: 0.9em;
+}
 
 .news .info {
 	overflow: auto;
@@ -1079,6 +1083,7 @@ div#clock div.space {
 .footer-content p {
   font-size: 85%;
   margin: 6px;
+  line-height: 14px;
 }
 
 .ai1ec-event-title{display:block;}.icon-arrow-right:before{content:""!important;}#container .ai1ec-date-title{margin:0.6em 0.5em 0.5em!important;border-radius:0.5em!important;-webkit-border-radius:0.5em!important;-moz-border-radius:0.5em!important}
