@@ -617,7 +617,7 @@ input:-moz-placeholder {
 .news-header {
   text-align: center; }
 
-.news-header, #page article .entry-meta, #page article .entry-footer {
+.news-header, #page article .entry-meta, #page article .entry-footer, .footer-menu {
   margin: 10px 0;
   border: 5px solid #eaeaea;
   background-color: #eaeaea;
@@ -973,7 +973,7 @@ div#clock div.space {
 
 #footer-menu-container ul li {
   float: left;
-  margin-right: 15px; }
+  margin: 0 7px; }
 
 .mobile-menu-button {
   padding: 7px 10px;
@@ -1001,6 +1001,10 @@ div#clock div.space {
 
 #footer-menu-container {
   display: inline-block; }
+
+#footer-menu-container ul {
+  margin: 0;
+  padding: 0; }
 
 .ai1ec-event-title {
   display: block; }

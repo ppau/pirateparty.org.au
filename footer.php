@@ -14,7 +14,7 @@
 					<?php tha_footer_top(); ?>
 					
 					<div class="centre">
-						<div id="footer-menu-container">
+						<div id="footer-menu-container" class="footer-menu">
 							<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
 						</div>
 					</div>
@@ -22,14 +22,14 @@
 					<div class="row-fluid">
 						<div class="span6">
 							<p>
-								Authorised by: B Molloy, Party Secretary, Pirate Party Australia<br>
-								Level 26, 44 Market Street, Sydney NSW 2000 Australia
+								<small>Authorised by: B Molloy, Party Secretary, Pirate Party Australia<br>
+								Level 26, 44 Market Street, Sydney NSW 2000 Australia</small>
 							</p>
 						</div>
 						<div class="span6">
 							<p>
-								Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" class="license" rel="license"><img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="Creative Commons License"></a><br>
-								This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a>
+								<small>Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" class="license" rel="license"><img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="Creative Commons License"></a><br>
+								This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a></small>
 							</p>
 						</div>
 					</div>
