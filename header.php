@@ -52,31 +52,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-<?php /*
-	<img
-	class="visible-phone"
-	src="http://pirateparty.org.au/media/identity_style_guide/PNG/ppauLogo-australia.png"
-	style="position: absolute; left: 11px; top: 6px;opacity:0.4; height: 53px;"
-	>
 
-	<img
-	class="visible-tablet"
-	src="http://pirateparty.org.au/media/identity_style_guide/PNG/ppauLogo-australia.png"
-	style="position: absolute; left: 6px; top: 6px;opacity:0.4; height: 65px;"
-	>
-*/
-?>
 	<div class="row-fluid" id="header_real">
 		<div class="span12">
 
 			<header>
-				
-<?php /*
-<div class="center visible-desktop">
-	<img class="center"
-	src="http://pirateparty.org.au/media/identity_style_guide/PNG/ppauLogo-australia.png"
-	style="float: left; margin-top: 18px; margin-left: -323px; position: absolute; opacity:0.4; height: 120px;"
-	></div> */?>
 
 				<div id="header">
 					<a id="logo" href="/">
@@ -107,12 +87,12 @@
 	<div class="navbar ppau-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button" style="margin-bottom: 5px; float: left !important; color: #222; text-shadow: none !important;">
+				<button id="responsive-menu-button" data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
 					<i class="icon-th-list"></i> menu
 				</button>
 				
-				<a href="<?php echo donate_page_uri() ?>" class="hidden-desktop btn btn-danger pull-right" style="padding: 7px 10px; font-weight: bold; margin-right: 5px;font-size: 14px; line-height: 20px;">Donate</a>
-				<a href="<?php echo join_page_uri() ?>" class="hidden-desktop btn btn-warning pull-right" style="padding: 7px 10px; font-weight: bold; margin-right: 5px;font-size: 14px; line-height: 20px;">Join us</a>
+				<a href="<?php echo donate_page_uri() ?>" class="hidden-desktop btn btn-danger pull-right mobile-menu-button">Donate</a>
+				<a href="<?php echo join_page_uri() ?>" class="hidden-desktop btn btn-warning pull-right mobile-menu-button">Join us</a>
 				
 				
 				<div class="nav-collapse collapse  no-transition">
@@ -175,7 +155,7 @@ $defaults = array(
 
 
 
-	<div id="page-row" class="row-fluid" style="max-width: 1200px !important; margin: 0 auto;">
+	<div id="page-row" class="row-fluid">
 		
 
 

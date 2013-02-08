@@ -457,6 +457,23 @@ nav #menu-right, nav #menu-action {
   margin-top: 15px;
   padding: 0 0 0 0px; }
 
+#column ul {
+  list-style: none;
+  margin: 0 0 1em 4px;
+  padding: 0!important; }
+
+#column ul li {
+  line-height: 1.3em;
+  margin: .25em 0;
+  padding: 0 0 0 22px;
+  background: url(../img/end.png) no-repeat 0 7px; }
+
+#column .we-are ul li {
+  background: url(../img/end-white.png) no-repeat 0 7px; }
+
+#column .column-containter {
+  padding: 0 10px; }
+
 .lt-ie8 #column {
   margin-left: 10px; }
 
@@ -663,7 +680,16 @@ input:-moz-placeholder {
 
 #real-footer {
   text-align: center;
-  background-color: #fff; }
+  background-color: #fff;
+  max-width: 1200px !important;
+  margin: 0 auto; }
+
+#real-footer .license {
+  position: relative;
+  top: 0px; }
+
+#real-footer .license img {
+  border-width: 0; }
 
 .ppau-fixed-top, .ppau-fixed-bottom {
   margin-bottom: 0;
@@ -823,7 +849,9 @@ input:-moz-placeholder {
   #menu-left, #menu-left-menu {
     margin-left: 50px !important; } }
 #page-row {
-  background-color: #fff; }
+  background-color: #fff;
+  max-width: 1200px !important;
+  margin: 0 auto; }
 
 .dropdown-menu .active > a {
   background-color: #ccc;
@@ -959,13 +987,56 @@ div#clock div.space {
 #respond .control-group {
   margin-bottom: 7px; }
 
-#menu-footer {
+#footer-menu-container ul {
   list-style: none;
   overflow: auto; }
 
-#menu-footer li {
+#footer-menu-container ul li {
   float: left;
   margin-right: 15px; }
+
+.mobile-menu-button {
+  padding: 7px 10px;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 14px;
+  line-height: 20px; }
+
+#next-broadcast {
+  background-color: #ddd;
+  margin: 0 10px;
+  padding: 5px; }
+
+#next-broadcast .next {
+  line-height: 28px; }
+
+#next-broadcast .time {
+  font-size: 24px; }
+
+#responsive-menu-button {
+  margin-bottom: 5px;
+  float: left !important;
+  color: #222;
+  text-shadow: none !important; }
+
+#footer-menu-container {
+  display: inline-block; }
+
+.ai1ec-event-title {
+  display: block; }
+
+.icon-arrow-right:before {
+  content: ""!important; }
+
+#container .ai1ec-date-title {
+  margin: 0.6em 0.5em 0.5em!important;
+  border-radius: 0.5em!important;
+  -webkit-border-radius: 0.5em!important;
+  -moz-border-radius: 0.5em!important; }
+
+#container .ai1ec-agenda-widget-view .ai1ec-date {
+  background: none!important;
+  border-top: none!important; }
 
 /*
 ############

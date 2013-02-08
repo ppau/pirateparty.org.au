@@ -11,7 +11,6 @@ tha_sidebars_before(); ?>
 <div class="span3 hidden-phone" id="column">
 	<section id="secondary" class="widget-area" role="complementary">
 
-
 				<div id="join-donate" style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
 					<a href="<?php echo join_page_uri() ?>" class="button button-orange sidebar-action-item">
 						<i class="is2-group"></i>
@@ -44,9 +43,10 @@ tha_sidebars_before(); ?>
 						<a href="<?php echo get_permalink(get_page_by_path('/category/webcasts/')) ?>">Previous episodes and downloads.</a>
 					</p>
 					
-					<div style="background-color: #ddd; margin: 0 10px;padding: 5px;">
-						<p class="centre"><strong>Next broadcast</strong></p>
-						<p class="centre" style="font-size: 24px;">Sunday 9pm AEST</p>
+					<div id="next-broadcast">
+						<p class="centre next"><strong>Next broadcast</strong></p>
+						<p class="centre time">Sunday 9pm AEST</p>
+					</div>
 				</aside>
 
 		<?php tha_sidebar_top();

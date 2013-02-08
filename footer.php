@@ -10,11 +10,11 @@
 
 		</div><!-- #page-row -->
 
-				<footer id="real-footer" role="contentinfo" class="row-fluid centre" style="max-width: 1200px !important; margin: 0 auto;">
+				<footer id="real-footer" role="contentinfo" class="row-fluid centre">
 					<?php tha_footer_top(); ?>
 					
 					<div class="centre">
-						<div style="display:inline-block;">
+						<div id="footer-menu-container">
 							<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
 						</div>
 					</div>
@@ -28,7 +28,7 @@
 						</div>
 						<div class="span6">
 							<p>
-								Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" rel="license" style="position: relative; top: 3px"><img src="http://i.creativecommons.org/l/by/3.0/80x15.png" style="border-width:0" alt="Creative Commons License"></a><br>
+								Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" class="license" rel="license"><img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="Creative Commons License"></a><br>
 								This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a>
 							</p>
 						</div>
