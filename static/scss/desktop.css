@@ -660,9 +660,13 @@ input:-moz-placeholder {
 
 #real-footer {
   text-align: center;
-  background-color: #fff;
+  background-color: #efefef;
   max-width: 1200px !important;
   margin: 0 auto; }
+
+.footer-links {
+  padding-top: 6px;
+  border-top: 1px solid #e0e0e0; }
 
 #real-footer .license {
   position: relative;
@@ -1005,6 +1009,10 @@ div#clock div.space {
 #footer-menu-container ul {
   margin: 0;
   padding: 0; }
+
+.footer-content p {
+  font-size: 85%;
+  margin: 6px; }
 
 .ai1ec-event-title {
   display: block; }
