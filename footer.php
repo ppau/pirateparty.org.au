@@ -22,14 +22,28 @@
 					<div class="row-fluid">
 						<div class="span6">
 							<p>
+<<<<<<< Updated upstream
 								<small>Authorised by: B Molloy, Party Secretary, Pirate Party Australia<br>
 								Level 26, 44 Market Street, Sydney NSW 2000 Australia</small>
+=======
+								Authorised by: B Molloy, Party Secretary, Pirate Party Australia
+              </p>
+              <p>
+                Level 26, 44 Market Street, Sydney NSW 2000 Australia
+>>>>>>> Stashed changes
 							</p>
 						</div>
 						<div class="span6">
 							<p>
+<<<<<<< Updated upstream
 								<small>Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" class="license" rel="license"><img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="Creative Commons License"></a><br>
 								This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a></small>
+=======
+                Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" class="license" rel="license"><img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="Creative Commons License"></a>
+              </p>
+              <p>
+								This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a>
+>>>>>>> Stashed changes
 							</p>
 						</div>
 					</div>
