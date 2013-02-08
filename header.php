@@ -37,18 +37,6 @@
 	
 	<?php wp_head(); ?>
 
-	<script type="text/javascript" charset="utf-8">
-	var dst_offset = "<?php 
-	$tz = new DateTimeZone("Australia/Sydney");
-	if (count($tz->getTransitions(time())) > 0)
-	{
-		echo 11;
-	}else{
-		echo 10;
-	}
-	?>:00";
-	</script>
-
 </head>
 
 <body <?php body_class(); ?>>
