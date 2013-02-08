@@ -1038,6 +1038,9 @@ div#clock div.space {
   background: none!important;
   border-top: none!important; }
 
+.widget_archive select {
+  width: 100%; }
+
 /*
 ############
 ##
