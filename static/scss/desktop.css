@@ -466,10 +466,10 @@ nav #menu-right, nav #menu-action {
   line-height: 1.3em;
   margin: .25em 0;
   padding: 0 0 0 22px;
-  background: url(../img/end.png) no-repeat 0 7px; }
+  background: url(../img/end.png) no-repeat 0 4px; }
 
 #column .we-are ul li {
-  background: url(../img/end-white.png) no-repeat 0 7px; }
+  background: url(../img/end-white.png) no-repeat 0 4px; }
 
 #column .column-containter {
   padding: 0 10px; }
