@@ -76,7 +76,7 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<button id="responsive-menu-button" data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
-					<i class="icon-th-list"></i> menu
+					<i class="icon-th-list"></i> Menu
 				</button>
 				
 				<a href="<?php echo donate_page_uri() ?>" class="hidden-desktop btn btn-danger pull-right mobile-menu-button">Donate</a>

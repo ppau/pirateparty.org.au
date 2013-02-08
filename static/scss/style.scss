@@ -13,6 +13,7 @@
 	-moz-border-top-right-radius:$radius;
 }
 
+
 @mixin button_base($color, $border-color, $background-color) {
 	color: $color;
 	border: solid 1px;
@@ -393,7 +394,7 @@ nav #menu-right, nav #menu-action {
 
 #column aside {
 	margin: 0 0 15px 0;
-	padding-bottom: 10px;
+	padding-bottom: 4px;
 	background-color: #EFEFEF;
 	@include border_radius(4px);
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
@@ -422,7 +423,7 @@ nav #menu-right, nav #menu-action {
 	font-weight: bold;
 	margin-bottom: 10px;
 	@include border_radius_top(3px);
-	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px 2px 2px rgba(0,0,0,.7);
+	text-shadow: 1px 1px 0px rgba(255,255,255,.3), 2px 2px 2px rgba(0,0,0,.7);
 }
 
 #column aside form {
@@ -1028,6 +1029,7 @@ div#clock div.space {
 #footer-menu-container ul {
 	list-style: none;
 	overflow: auto;
+
 }
 
 #footer-menu-container ul li {
