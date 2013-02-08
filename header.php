@@ -108,7 +108,7 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button" style="margin-bottom: 5px; float: left !important; color: #222; text-shadow: none !important;">
-					<i class="icon-th-list"></i> menu
+					<i class="icon-th-list"></i> Menu
 				</button>
 				
 				<a href="<?php echo donate_page_uri() ?>" class="hidden-desktop btn btn-danger pull-right" style="padding: 7px 10px; font-weight: bold; margin-right: 5px;font-size: 14px; line-height: 20px;">Donate</a>
