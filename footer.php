@@ -13,7 +13,7 @@
 				<footer id="real-footer" role="contentinfo" class="row-fluid centre">
 					<?php tha_footer_top(); ?>
 					
-					<div class="centre">
+					<div class="centre footer-links">
 						<div id="footer-menu-container" class="footer-menu">
 							<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
 						</div>

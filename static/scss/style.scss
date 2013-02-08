@@ -629,9 +629,14 @@ input:-moz-placeholder {
 
 #real-footer {
 	text-align: center;
-	background-color: #fff;
+	background-color: #efefef;
 	max-width: 1200px !important;
 	margin: 0 auto;
+}
+
+.footer-links {
+  padding-top: 6px;
+  border-top: 1px solid #e0e0e0;
 }
 
 #real-footer .license {
