@@ -30,7 +30,7 @@
 						</div>
 						<div class="span6">
 							<p>
-                Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" class="license" rel="license"><img src="http://i.creativecommons.org/l/by/3.0/80x15.png" alt="Creative Commons License"></a>
+                Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" class="license" rel="license"><img src="<?= static_url() ?>img/cc80x15.png" alt="Creative Commons License"></a>
               </p>
               <p>
 								This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a>
