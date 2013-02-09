@@ -40,7 +40,7 @@ tha_sidebars_before(); ?>
 					
 					<p>
 						Our weekly show talking pirate politics from the Australian perspective. Hosted by Sam Kearns.
-						<a href="<?php echo get_permalink(get_page_by_path('/category/webcasts/')) ?>">Previous episodes and downloads.</a>
+						<a href="<?php echo get_category_link(get_category_by_slug('webcasts')->term_id) ?>">Previous episodes and downloads.</a>
 					</p>
 					
 					<div id="next-broadcast">

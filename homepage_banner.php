@@ -36,7 +36,7 @@
 		</div>
 		<div class="span4 t2 centre">
 			<p><strong>Webcasts!</strong></p>
-			<p class="read-more" style="margin-top: 60px;"><a href="<?php echo get_permalink(get_page_by_path('/category/webcasts/')) ?>" class="btn btn-primary">Listen or download</a></p>
+			<p class="read-more" style="margin-top: 60px;"><a href="<?php echo get_category_link(get_category_by_slug('webcasts')->term_id) ?>" class="btn btn-primary">Listen or download</a></p>
 		</div>
 		<div class="span4 t1 last">
 			<p style="margin-top: 25px;"><strong>Get our press releases</strong></p>
