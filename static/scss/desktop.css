@@ -617,10 +617,14 @@ input:-moz-placeholder {
 .news-header {
   text-align: center; }
 
-.news-header, #page article .entry-meta, #page article .entry-footer, .footer-menu {
+.news-header, #page article .entry-meta, #page article .entry-footer {
   margin: 10px 0;
   border: 5px solid #eaeaea;
   background-color: #eaeaea;
+  font-size: 0.9em; }
+
+.footer-menu {
+  margin: 10px 0;
   font-size: 0.9em; }
 
 .news .info {
@@ -665,7 +669,6 @@ input:-moz-placeholder {
   margin: 0 auto; }
 
 .footer-links {
-  padding-top: 6px;
   border-top: 1px solid #e0e0e0; }
 
 #real-footer .license {
@@ -1012,7 +1015,8 @@ div#clock div.space {
 
 .footer-content p {
   font-size: 85%;
-  margin: 6px; }
+  margin: 6px;
+  line-height: 14px; }
 
 .ai1ec-event-title {
   display: block; }
@@ -1033,6 +1037,13 @@ div#clock div.space {
 .widget_archive select {
   width: 100%; }
 
+.tint {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.1em 0.3em; }
+
+@media print {
+  #column, #header_real, .ppau-fixed-top, .footer-links, #respond, #nav-single {
+    display: none; } }
 input.button {
   height: 30px;
   font-family: 'Droid Sans', Arial; }

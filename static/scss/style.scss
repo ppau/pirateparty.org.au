@@ -1096,3 +1096,10 @@ div#clock div.space {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 0.1em 0.3em;
 }
+
+@media print {
+	#column, #header_real, .ppau-fixed-top, .footer-links, #respond, #nav-single {
+		display: none;
+	}
+
+}
