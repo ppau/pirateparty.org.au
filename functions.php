@@ -424,7 +424,7 @@ function the_bootstrap_wp_title( $title, $sep ) {
 
 	return $title;
 }
-add_filter( 'wp_title', 'the_bootstrap_wp_title', 1, 2 );
+#add_filter( 'wp_title', 'the_bootstrap_wp_title', 1, 2 );
 
 
 /**
