@@ -1053,6 +1053,12 @@ div#clock div.space {
 .lt-ie8 .t3 {
   padding: 0px 0px 0px 0px !important; }
 
+#comments .pingback {
+  padding: 4px; }
+
+#comments .pingback .row {
+  margin-left: 0 !important; }
+
 input.button {
   height: 30px;
   font-family: 'Droid Sans', Arial; }
