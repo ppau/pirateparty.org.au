@@ -36,7 +36,7 @@ tha_sidebars_before(); ?>
 				</aside>
 
 				<aside>
-					<header>Pirate Party TV</header>
+					<header>Pirate Party Webcasts</header>
 					
 					<p>
 						Our weekly show talking pirate politics from the Australian perspective. Hosted by Sam Kearns.
