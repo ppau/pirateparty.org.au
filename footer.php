@@ -22,7 +22,7 @@
 					<div class="row-fluid footer-content">
 						<div class="span6">
 							<p>
-								Authorised by: G Takkenberg, Party Agent, Pirate Party Australia
+								Authorised by: B Molloy, Party Secretary, Pirate Party Australia
               </p>
               <p>
                 26 Emerton Street, Evatt ACT 2617 Australia
