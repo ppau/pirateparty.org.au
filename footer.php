@@ -22,10 +22,10 @@
 					<div class="row-fluid footer-content">
 						<div class="span6">
 							<p>
-								Authorised by: B Molloy, Party Secretary, Pirate Party Australia
+								Authorised by: G Takkenberg, Party Agent, Pirate Party Australia
               </p>
               <p>
-                Level 26, 44 Market Street, Sydney NSW 2000 Australia
+                26 Emerton Street, Evatt ACT 2617 Australia
 							</p>
 						</div>
 						<div class="span6">
