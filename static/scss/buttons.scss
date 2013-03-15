@@ -268,18 +268,22 @@ button-red:active, .button-red:focus {
 	margin: 1px 5px 0px 1px;
 }
 
-@media (min-width: 768px) and (max-width: 1144px) {
+@media (min-width: 768px) and (max-width: 1146px) {
 	#column #join-donate a {
-		display: block;
-		margin-bottom: 10px;
+	width: 91%;
+	
+	display: block;
+	}
+	
+	#column #join-donate a.pig {
+		margin-top: 10px;
 	}
 }
 
 @media (min-width: 1144px) {
 	#column #join-donate a.pig {
-		float: right;
+		margin-left: 10px;
 	}
-
 }
 
 .btn-primary {

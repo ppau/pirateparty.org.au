@@ -394,7 +394,7 @@ nav #menu-right, nav #menu-action {
 
 #column aside {
 	margin: 0 0 15px 0;
-	padding-bottom: 4px;
+	padding-bottom: 10px;
 	background-color: #EFEFEF;
 	@include border_radius(4px);
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
@@ -405,6 +405,12 @@ nav #menu-right, nav #menu-action {
 #column #join-donate {
 	margin: 0 0 15px 0;
 	padding-bottom: 10px;
+}
+
+#column #join-donate a {
+	width: 39%;
+	display: inline-block;
+	padding: 0 10px;
 }
 
 #column aside p {

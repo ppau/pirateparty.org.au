@@ -45,7 +45,7 @@ tha_sidebars_before(); ?>
 					
 					<div id="next-broadcast">
 						<p class="centre next"><strong>Next broadcast</strong></p>
-						<p class="centre time">Sunday 9pm AEST</p>
+						<p class="centre time">Sunday 9pm AEDT</p>
 					</div>
 				</aside>
 
