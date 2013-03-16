@@ -44,7 +44,7 @@
 	<!-- <?php printf( __( '%d queries. %s seconds.', 'the-bootstrap' ), get_num_queries(), timer_stop(0, 3) ); ?> -->
 
 
-	<script type="text/javascript" src="<?= static_url() ?>js/vendor/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>js/vendor/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="<?= static_url() ?>vendor/bootstrap-2.3.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?= static_url() ?>js/script.js"></script>
 

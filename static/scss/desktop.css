@@ -1056,11 +1056,11 @@ div#clock div.space {
 @media print {
   #column, #header_real, .ppau-fixed-top, .footer-links, #respond, #nav-single {
     display: none; } }
-.lt-ie9 {
-  min-width: 1100px !important; }
+.lt-ie9 body {
+  min-width: 1120px !important; }
 
 .lt-ie8 .t3, .lt-ie8 .t2, .lt-ie8 .t1 {
-  max-width: 275px !important; }
+  max-width: 270px !important; }
 
 .lt-ie8 .t3 {
   padding: 0px 0px 0px 0px !important; }
@@ -1072,11 +1072,11 @@ div#clock div.space {
   margin-left: 0 !important; }
 
 .no-transition {
-  -webkit-transition: height 0;
-  -moz-transition: height 0;
-  -ms-transition: height 0;
-  -o-transition: height 0;
-  transition: height 0; }
+  -webkit-transition: height 0 !important;
+  -moz-transition: height 0 !important;
+  -ms-transition: height 0 !important;
+  -o-transition: height 0 !important;
+  transition: height 0 !important; }
 
 input.button {
   height: 30px;
