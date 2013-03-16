@@ -8,7 +8,7 @@
 
 tha_sidebars_before(); ?>
 
-<div class="span3 hidden-phone" id="column">
+<div class="span3" id="column">
 	<section id="secondary" class="widget-area" role="complementary">
 
 				<div id="join-donate" style="padding-bottom: 0px;" class="hidden-phone hidden-tablet">
@@ -25,7 +25,7 @@ tha_sidebars_before(); ?>
 				</div>
 				
 				
-				<aside class="we-are">
+				<aside class="we-are hidden-phone">
 					<span>We are</span> a movement based around the core tenets of:
 					<ul>
 						<li>freedom of information and culture;</li>

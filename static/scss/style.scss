@@ -748,9 +748,9 @@ input:-moz-placeholder {
 		
 		color: #333;
 	}
-  #header #logo {
-  	margin-left: 10px !important;
-  }
+	#header #logo {
+		margin-left: 10px !important;
+	}
   
 	body {
 		min-width: 0px !important;
@@ -760,6 +760,10 @@ input:-moz-placeholder {
 		margin-bottom: 10px !important;
 	}
 	
+	#column {
+		margin: 0;
+		padding: 5px;
+	}
 }
 
 @media (max-width: 1120px) {
@@ -1129,4 +1133,12 @@ div#clock div.space {
 
 #comments .pingback .row {
 	margin-left: 0 !important;
+}
+
+.no-transition {
+	-webkit-transition: height 0;
+	-moz-transition: height 0;
+	-ms-transition: height 0;
+	-o-transition: height 0;
+	transition: height 0;
 }

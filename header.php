@@ -83,7 +83,7 @@
 				<a href="<?php echo join_page_uri() ?>" class="hidden-desktop btn btn-warning pull-right mobile-menu-button">Join us</a>
 				
 				
-				<div class="nav-collapse collapse  no-transition">
+				<div class="nav-collapse collapse no-transition">
 						
 <?php
 

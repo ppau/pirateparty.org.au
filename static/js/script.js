@@ -4,8 +4,8 @@
 
 $(function() {
 
+	/*
 	$("#amount").change(function(e) {
-
 		if ($("#amount").val() == "other") {
 			$("#other_amount").show();
 		} else {
@@ -20,6 +20,6 @@ $(function() {
 				this.stopVideo();
 			}
 		});
-
 	})
+	*/
 });

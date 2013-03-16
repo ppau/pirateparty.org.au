@@ -762,7 +762,11 @@ input:-moz-placeholder {
     min-width: 0px !important; }
 
   #banner .t1, #banner .t2, #banner .t3 {
-    margin-bottom: 10px !important; } }
+    margin-bottom: 10px !important; }
+
+  #column {
+    margin: 0;
+    padding: 5px; } }
 @media (max-width: 1120px) {
   #header {
     background-image: none; }
@@ -1063,6 +1067,13 @@ div#clock div.space {
 
 #comments .pingback .row {
   margin-left: 0 !important; }
+
+.no-transition {
+  -webkit-transition: height 0;
+  -moz-transition: height 0;
+  -ms-transition: height 0;
+  -o-transition: height 0;
+  transition: height 0; }
 
 input.button {
   height: 30px;
