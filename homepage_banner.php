@@ -1,5 +1,10 @@
 
 <?php /*
+
+THE TOOL KIT
+
+#MODAL
+
 <div class="modal hide fade" tabindex="-1" id="watch-pres" style="width: auto; margin-left: -360px;">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
@@ -13,26 +18,43 @@
 	<div class="modal-footer">
 		<a href="#" class="btn" data-dismiss="modal">Close</a>
 	</div>
-</div>*/ ?>
+</div>
+
+# SECRET / SPYING / SURVIELLANCE BLOCK
+
+<div class="span4 t3">
+<p style="margin-top: 15px;"><strong>The Government wants<br>to spy on you 24/7</strong></p>
+<p>Sign our Senate petition against data retention</p>
+<p class="read-more"><a href="<?php echo get_permalink(get_page_by_path('/natsecinquiry-petition/')) ?>" class="btn btn-primary">sign now</a></p>
+</div>
+
+
+*/
+
+?>
 
 
 <div id="banner">
 	
 	
-	<div class="main">
-		<p class="first centre"><strong>We're officially registered!</strong></p>
-		<p class="first center" style="font-size: 0.8em">
-			<span>
-				<a href="<?php echo get_permalink(get_page_by_path('/2013/01/21/pirate-party-australia-successfully-registers-for-federal-elections/')) ?>" class="button button-green" style="font-size: 16px;line-height:20px;padding: 10px 14px;"><strong>Read the announcement</strong></a>
+	<div class="main centre">
+		<p class="first"><strong>Policy and Preselection meeting</strong></p>
+		<p>
+			April 6th to 7th 2013
+			<span style="margin-left: 20px">
+				<a href="/wiki/Policy_and_Preselection_Meeting_2013" class="btn btn-primary">more details</a>
 			</span>
 		</p>
 	</div>
 	
 	<div class="row-fluid lower">
-		<div class="span4 t3">
-			<p style="margin-top: 15px;"><strong>The Government wants<br>to spy on you 24/7</strong></p>
-			<p>Sign our Senate petition against data retention</p>
-			<p class="read-more"><a href="<?php echo get_permalink(get_page_by_path('/natsecinquiry-petition/')) ?>" class="btn btn-primary">sign now</a></p>
+		<div class="span4" style="background-color: #375688;">
+			<p class="first centre" style="margin-top: 20px;font-size: 26px;line-height:26px;"><strong>We're officially <br>registered!</strong></p>
+			<p class="read-more centre" style="margin-top: 20px;">
+				<a href="<?php echo get_permalink(get_page_by_path('/2013/01/21/pirate-party-australia-successfully-registers-for-federal-elections/')) ?>" class="btn btn-primary">
+					read more
+				</a>
+			</p>
 		</div>
 		<div class="span4 t2 centre">
 			<p><strong>Webcasts!</strong></p>

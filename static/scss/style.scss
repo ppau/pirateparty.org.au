@@ -484,6 +484,7 @@ input:-moz-placeholder {
 
 #banner {
 	color: #fff;
+	font-family: 'GehenSans';
 }
 
 #banner a.btn {
@@ -503,11 +504,13 @@ input:-moz-placeholder {
 	border: 10px solid $bggrey;
 	background-image: url(../img/banner/launch_banner.png);
 	min-height: 150px;
-	font-size: 40px;
+	font-size: 35px;
+	padding: 0 5%;
 }
 
 #banner .main p {
 	line-height: 40px;
+	margin-bottom: 15px;
 }
 
 #banner .main .first {

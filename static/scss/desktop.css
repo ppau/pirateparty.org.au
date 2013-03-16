@@ -550,7 +550,8 @@ input:-moz-placeholder {
   padding: 10px 10px 0 10px; }
 
 #banner {
-  color: #fff; }
+  color: #fff;
+  font-family: 'GehenSans'; }
 
 #banner a.btn {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) !important;
@@ -566,10 +567,12 @@ input:-moz-placeholder {
   border: 10px solid #eaeaea;
   background-image: url(../img/banner/launch_banner.png);
   min-height: 150px;
-  font-size: 40px; }
+  font-size: 35px;
+  padding: 0 5%; }
 
 #banner .main p {
-  line-height: 40px; }
+  line-height: 40px;
+  margin-bottom: 15px; }
 
 #banner .main .first {
   padding-top: 25px; }
