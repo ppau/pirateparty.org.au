@@ -51,20 +51,20 @@ THE TOOL KIT
 		<div class="span4" style="background-color: #375688;">
 			<p class="first centre" style="margin-top: 20px;font-size: 26px;line-height:26px;"><strong>We're officially <br>registered!</strong></p>
 			<p class="read-more centre" style="margin-top: 20px;">
-				<a href="<?php echo get_permalink(get_page_by_path('/2013/01/21/pirate-party-australia-successfully-registers-for-federal-elections/')) ?>" class="btn btn-primary">
+				<a href="/2013/01/21/pirate-party-australia-successfully-registers-for-federal-elections/" class="btn btn-primary">
 					read more
 				</a>
 			</p>
 		</div>
 		<div class="span4 t2 centre">
 			<p><strong>Webcasts!</strong></p>
-			<p class="read-more" style="margin-top: 60px;"><a href="<?php echo get_category_link(get_category_by_slug('webcasts')->term_id) ?>" class="btn btn-primary">Listen or download</a></p>
+			<p class="read-more" style="margin-top: 60px;"><a href="/category/webcasts/" class="btn btn-primary">Listen or download</a></p>
 		</div>
 		<div class="span4 t1 last">
 			<p style="margin-top: 25px;"><strong>Get our press releases</strong></p>
 			<p>straight to your inbox!</p>
 			<p class="read-more">
-				<a href="<?php echo get_permalink(get_page_by_path('/press-releases-list/')) ?>" class="btn btn-primary">find out more</a>
+				<a href="/press-releases-list/" class="btn btn-primary">find out more</a>
 			</p>
 		</div>
 	</div>
