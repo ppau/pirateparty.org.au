@@ -59,7 +59,6 @@
 }
 
 html {
-	font-family: "sans-serif", "Verdana";
 	color: $font_color;
 	background: #f7f7f7 url(../img/elements/html_bg.png) repeat-y center;
 }
@@ -67,6 +66,7 @@ html {
 body {
 	background-color: transparent;
 	padding: 0 !important;
+	font-family: sans-serif, arial, helvetica, geneva, tahoma, Lucida Console, georgia, verdana, courier;
 }
 
 h1, .h1 {

@@ -178,13 +178,13 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
   font-style: normal; }
 
 html {
-  font-family: "sans-serif";
   color: #565656;
   background: #f7f7f7 url(../img/elements/html_bg.png) repeat-y center; }
 
 body {
   background-color: transparent;
-  padding: 0 !important; }
+  padding: 0 !important;
+  font-family: sans-serif, arial, helvetica, geneva, tahoma, Lucida Console, georgia, verdana, courier; }
 
 h1, .h1 {
   font-size: 2em;
@@ -430,7 +430,7 @@ nav #menu-right, nav #menu-action {
   margin: 0; }
 
 #content, #column {
-  font-family: "Droid Sans","Lucida Grande",Tahoma,sans-serif; }
+  font-family: "Droid Sans"; }
 
 #column {
   margin-left: 15px;
