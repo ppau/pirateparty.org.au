@@ -59,7 +59,7 @@
 }
 
 html {
-	font-family: "sans-serif";
+	font-family: "sans-serif", "Verdana";
 	color: $font_color;
 	background: #f7f7f7 url(../img/elements/html_bg.png) repeat-y center;
 }
@@ -358,7 +358,7 @@ nav #menu-right, nav #menu-action {
 }
 
 #content, #column {
-	font-family: "Droid Sans","Lucida Grande",Tahoma,sans-serif;
+	font-family: "Droid Sans";
 }
 
 #column {
