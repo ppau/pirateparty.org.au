@@ -66,7 +66,7 @@ html {
 body {
 	background-color: transparent;
 	padding: 0 !important;
-	font-family: sans-serif, arial, helvetica, geneva, tahoma, Lucida Console, georgia, verdana, courier;
+	font-family: arial, helvetica, geneva, tahoma, georgia, verdana, sans-serif, courier;
 }
 
 h1, .h1 {
@@ -358,7 +358,7 @@ nav #menu-right, nav #menu-action {
 }
 
 #content, #column {
-	font-family: "Droid Sans";
+	font-family: "Droid Sans", arial, helvetica, geneva, tahoma, georgia, verdana, sans-serif, courier;
 }
 
 #column {
