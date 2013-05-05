@@ -36,7 +36,8 @@ THE TOOL KIT
 
 <div id="banner">
 	
-	
+	<?php /*
+
 	<div class="main centre">
 		<p class="first"><strong>Policy and Preselection meeting</strong></p>
 		<p>
@@ -46,7 +47,9 @@ THE TOOL KIT
 			</span>
 		</p>
 	</div>
-	
+	*/
+
+?>
 	<div class="row-fluid lower">
 		<div class="span4" style="background-color: #375688;">
 			<p class="first centre" style="margin-top: 20px;font-size: 26px;line-height:26px;"><strong>We're officially <br>registered!</strong></p>
