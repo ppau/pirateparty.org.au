@@ -30,8 +30,9 @@ tha_sidebars_before(); ?>
 					<ul>
 						<li>freedom of information and culture;</li>
 						<li>civil and digital liberties;</li>
-						<li>privacy and anonymity; and,</li>
-						<li>government transparency.</li>
+						<li>privacy and anonymity;</li>
+						<li>government transparency; and,</li>
+						<li>participatory democracy.</li>
 					</ul>
 				</aside>
 
