@@ -33,23 +33,18 @@ THE TOOL KIT
 
 ?>
 
-
 <div id="banner">
-	
-	<?php /*
 
-	<div class="main centre">
-		<p class="first"><strong>Policy and Preselection meeting</strong></p>
+<div class="main centre">
+		<p class="first"><strong>Pirate Congress 2013</strong></p>
 		<p>
-			April 6th to 7th 2013
+			July 13th to 14th 2013
 			<span style="margin-left: 20px">
-				<a href="/wiki/Policy_and_Preselection_Meeting_2013" class="btn btn-primary">more details</a>
+				<a href="/wiki/Pirate_Congress_2013" class="btn btn-primary">more details</a>
 			</span>
 		</p>
 	</div>
-	*/
 
-?>
 	<div class="row-fluid lower">
 		<div class="span4" style="background-color: #375688;">
 			<p class="first centre" style="margin-top: 20px;font-size: 26px;line-height:26px;"><strong>We're officially <br>registered!</strong></p>
