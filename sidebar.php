@@ -44,10 +44,13 @@ tha_sidebars_before(); ?>
 						<a href="<?php echo get_category_link(get_category_by_slug('webcasts')->term_id) ?>">Previous episodes and downloads.</a>
 					</p>
 					
+					<?php /*
 					<div id="next-broadcast">
 						<p class="centre next"><strong>Next broadcast</strong></p>
 						<p class="centre time">Sunday 9pm AEDT</p>
 					</div>
+					*/ ?>
+					
 				</aside>
 
 		<?php tha_sidebar_top();

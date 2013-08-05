@@ -35,17 +35,23 @@ THE TOOL KIT
 
 <div id="banner">
 
-<div class="main centre">
-		<p class="first"><strong>Pirate Congress 2013</strong></p>
-		<p>
-			July 13th to 14th 2013
+<div class="main">
+
+		<p class="first"><strong>Meet your candidates</strong></p>
+		<p>Federal election 2013
 			<span style="margin-left: 20px">
-				<a href="/wiki/Pirate_Congress_2013" class="btn btn-primary">more details</a>
+				<a href="/candidates/" class="btn btn-primary">more details</a>
 			</span>
 		</p>
 	</div>
 
 	<div class="row-fluid lower">
+	
+		<div class="span4 centre" style="background-color: #375688;">
+			<p class="first centre" style="margin-top: 20px;font-size: 26px;line-height:26px;"><strong>Donate to our campaign</strong></p>
+			<p style="margin-top: 10px;"><a class="btn btn-success sidebar-action-item pig" href="http://pirateparty.org.au/donate/"><i class="is2-donate"></i>Donate now</a></p>
+		</div>
+		
 		<div class="span4" style="background-color: #375688;">
 			<p class="first centre" style="margin-top: 20px;font-size: 26px;line-height:26px;"><strong>We're officially <br>registered!</strong></p>
 			<p class="read-more centre" style="margin-top: 20px;">
@@ -54,10 +60,7 @@ THE TOOL KIT
 				</a>
 			</p>
 		</div>
-		<div class="span4 t2 centre">
-			<p><strong>Webcasts!</strong></p>
-			<p class="read-more" style="margin-top: 60px;"><a href="/category/webcasts/" class="btn btn-primary">Listen or download</a></p>
-		</div>
+		
 		<div class="span4 t1 last">
 			<p style="margin-top: 25px;"><strong>Get our press releases</strong></p>
 			<p>straight to your inbox!</p>
@@ -65,5 +68,6 @@ THE TOOL KIT
 				<a href="/press-releases-list/" class="btn btn-primary">find out more</a>
 			</p>
 		</div>
+		
 	</div>
 </div>
