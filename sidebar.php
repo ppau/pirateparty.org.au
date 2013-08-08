@@ -28,11 +28,11 @@ tha_sidebars_before(); ?>
 				<aside class="we-are hidden-phone">
 					<span>We are</span> a movement based around the core tenets of:
 					<ul>
-						<li>freedom of information and culture;</li>
-						<li>civil and digital liberties;</li>
-						<li>privacy and anonymity;</li>
-						<li>government transparency; and,</li>
-						<li>participatory democracy.</li>
+						<li>freedom of information and culture</li>
+						<li>civil and digital liberties</li>
+						<li>privacy and anonymity</li>
+						<li>government transparency</li>
+						<li>participatory democracy</li>
 					</ul>
 				</aside>
 
