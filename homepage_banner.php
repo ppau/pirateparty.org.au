@@ -38,7 +38,7 @@ THE TOOL KIT
 <div class="main">
 
 		<p class="first"><strong>Meet your candidates</strong></p>
-		<p>Federal election 2013
+		<p>Federal Election 2013
 			<span style="margin-left: 20px">
 				<a href="/candidates/" class="btn btn-primary">more details</a>
 			</span>
