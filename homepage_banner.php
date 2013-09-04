@@ -52,10 +52,10 @@ THE TOOL KIT
 			<p style="margin-top: 10px;"><a class="btn btn-success sidebar-action-item pig" href="http://pirateparty.org.au/donate/"><i class="is2-donate"></i>Donate now</a></p>
 		</div>
 		
-		<div class="span4" style="background-color: #375688;">
-			<p class="first centre" style="margin-top: 20px;font-size: 26px;line-height:26px;"><strong>We're officially <br>registered!</strong></p>
-			<p class="read-more centre" style="margin-top: 20px;">
-				<a href="/2013/01/21/pirate-party-australia-successfully-registers-for-federal-elections/" class="btn btn-primary">
+		<div class="span4 t2" style="background-color: #375688;">
+			<p class="first centre" style="margin-top: 15px;font-size: 22px; line-height: 26px;">See where we're putting our preferences</p>
+			<p class="read-more centre" style="margin-top: 10px;">
+				<a href="/2013/08/19/pirate-party-preferences-announced/" class="btn btn-primary">
 					read more
 				</a>
 			</p>

@@ -588,11 +588,17 @@ input:-moz-placeholder {
   max-width: 220px !important; }
 
 #banner .lower .t2 {
-  background: #324a77 url(../img/banner/ppautv.png) no-repeat;
+  background: #324a77 url(../img/banner/right_sept_2013.png) no-repeat;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
   background-position: 50% 50%; }
 
 #banner .lower .t2 p {
-  margin-top: 15px;
+  margin-top: 5px;
   font-size: 1.4em; }
 
 #banner .lower .t1 {
