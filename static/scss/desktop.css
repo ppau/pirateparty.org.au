@@ -563,19 +563,44 @@ input:-moz-placeholder {
 #banner p {
   margin: 0; }
 
-#banner .main {
+#banner .m2, #banner .m3 {
+  margin-top: 15px; }
+
+#banner .m1 {
   border: 10px solid #eaeaea;
   background-image: url(../img/banner/vote_banner.png);
   min-height: 150px;
   font-size: 35px;
   padding: 0 5%; }
 
-#banner .main p {
+#banner .m1 p, #banner .m2 p, #banner .m3 p {
   line-height: 40px;
   margin-bottom: 15px; }
 
-#banner .main .first {
+#banner .m1 .first, #banner .m2 .first, #banner .m3 .first {
   padding-top: 25px; }
+
+#banner .m2 {
+  border: 10px solid #eaeaea;
+  background-color: #685545;
+  background-image: url(../img/banner/right_sept_2013.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 90%;
+  min-height: 150px;
+  font-size: 35px;
+  padding: 0 5%; }
+
+#banner .m3 {
+  border: 10px solid #eaeaea;
+  background-color: #303040;
+  min-height: 150px;
+  font-size: 35px;
+  padding: 0 5%; }
 
 #banner .lower {
   margin-top: 10px; }
@@ -589,12 +614,12 @@ input:-moz-placeholder {
 
 #banner .lower .t2 {
   background: #324a77 url(../img/banner/right_sept_2013.png) no-repeat;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: 50% 50%; }
 
 #banner .lower .t2 p {

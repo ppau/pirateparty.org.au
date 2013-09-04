@@ -35,8 +35,7 @@ THE TOOL KIT
 
 <div id="banner">
 
-<div class="main">
-
+	<div class="m1">
 		<p class="first"><strong>Meet your candidates</strong></p>
 		<p>Federal Election 2013
 			<span style="margin-left: 20px">
@@ -44,7 +43,29 @@ THE TOOL KIT
 			</span>
 		</p>
 	</div>
+	
+	<div class="m2">
+		<p class="first">See where we're putting</p>
+		<p><strong>our preferences</strong>
+			<span style="margin-left: 20px">
+				<a href="/2013/08/19/pirate-party-preferences-announced/" class="btn btn-primary">
+					read more
+				</a>
+			</span>
+		</p>
+	</div>
+	
+	<div class="m3">
+			<p class="first">Our election pledge:</strong></p>
+			<p><strong>Get a warrant</strong>
+				<span style="margin-left: 20px">
+					<a href="http://getawarrant.org.au" class="btn btn-primary">visit website</a>
+				</span>
+			</p>
+	</div>
 
+	
+	
 	<div class="row-fluid lower">
 	
 		<div class="span4 centre" style="background-color: #375688;">
@@ -52,10 +73,11 @@ THE TOOL KIT
 			<p style="margin-top: 10px;"><a class="btn btn-success sidebar-action-item pig" href="http://pirateparty.org.au/donate/"><i class="is2-donate"></i>Donate now</a></p>
 		</div>
 		
-		<div class="span4 t2" style="background-color: #375688;">
-			<p class="first centre" style="margin-top: 15px;font-size: 22px; line-height: 26px;">See where we're putting our preferences</p>
+		<div class="span4" style="background-color: #375688;">
+			<p class="first centre" style="margin-top: 15px;font-size: 22px; line-height: 26px;"><strong>Meet the pirates</strong></p>
+			<p class="first centre" style="margin-top: 15px;font-size: 18px; line-height: 22px;">Our FAQ and History</p>
 			<p class="read-more centre" style="margin-top: 10px;">
-				<a href="/2013/08/19/pirate-party-preferences-announced/" class="btn btn-primary">
+				<a href="/faq/" class="btn btn-primary">
 					read more
 				</a>
 			</p>
