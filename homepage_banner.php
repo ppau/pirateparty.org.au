@@ -1,4 +1,3 @@
-
 <?php /*
 
 THE TOOL KIT
@@ -35,61 +34,62 @@ THE TOOL KIT
 
 <div id="banner">
 
-	<div class="m1">
-		<p class="first"><strong>Meet your candidates</strong></p>
-		<p>Federal Election 2013
-			<span style="margin-left: 20px">
-				<a href="/candidates/" class="btn btn-primary">more details</a>
-			</span>
-		</p>
-	</div>
-	
 	<div class="m2">
-		<p class="first">See where we're putting</p>
-		<p><strong>our preferences</strong>
+		<p class="first"><strong>Meet your candidates</strong></p>
+		<p>Federal Election 2016
 			<span style="margin-left: 20px">
-				<a href="/2013/08/19/pirate-party-preferences-announced/" class="btn btn-primary">
-					read more
-				</a>
+				<a href="/candidates/" class="btn btn-primary">See our candidates</a>
 			</span>
 		</p>
-	</div>
-	
-	<div class="m3">
-			<p class="first">Our election pledge:</strong></p>
-			<p><strong>Get a warrant</strong>
-				<span style="margin-left: 20px">
-					<a href="http://getawarrant.org.au" class="btn btn-primary">visit website</a>
-				</span>
-			</p>
 	</div>
 
-	
-	
-	<div class="row-fluid lower">
-	
-		<div class="span4 centre" style="background-color: #375688;">
-			<p class="first centre" style="margin-top: 20px;font-size: 26px;line-height:26px;"><strong>Donate to our campaign</strong></p>
-			<p style="margin-top: 10px;"><a class="btn btn-success sidebar-action-item pig" href="http://pirateparty.org.au/donate/"><i class="is2-donate"></i>Donate now</a></p>
+	<div class="row-fluid">
+		<div class="span12 m1" style="background-color: #375688; padding-bottom: 10px">
+
+			<p class="read-more" style="margin-top: 32px; float: right; text-align: right">
+			<!--<a href="/congress-streaming/" class="btn btn-primary btn-large">
+			Livestream
+			</a>-->
+			<br>
+			<a href="/wiki/Pirate_Congress_2016" class="btn btn-primary">
+			More information
+			</a>
+			</p>
+
+			<p class="first" style='font-size: 85%'>
+				<strong>Pirate Congress 2016</strong>
+                <br><small>July 23&ndash;24 - Hobart (and online!)</small>
+			</p>
 		</div>
-		
-		<div class="span4" style="background-color: #375688;">
-			<p class="first centre" style="margin-top: 15px;font-size: 22px; line-height: 26px;"><strong>Meet the pirates</strong></p>
-			<p class="first centre" style="margin-top: 15px;font-size: 18px; line-height: 22px;">Our FAQ and History</p>
-			<p class="read-more centre" style="margin-top: 10px;">
-				<a href="/faq/" class="btn btn-primary">
-					read more
+
+	</div>
+
+	<div class="row-fluid lower">
+		<div class="span4 t3" style="background-color: #000;">
+			<p class="first centre" style="margin-top: 34px;font-size: 22px; line-height: 26px;">Data retention is here</p>
+			<p class="read-more centre" style="margin-top: 12px;">
+				<a href="/dataretention/" class="btn btn-primary">
+				Protect yourself
 				</a>
 			</p>
 		</div>
-		
-		<div class="span4 t1 last">
-			<p style="margin-top: 25px;"><strong>Get our press releases</strong></p>
-			<p>straight to your inbox!</p>
-			<p class="read-more">
-				<a href="/press-releases-list/" class="btn btn-primary">find out more</a>
+
+		<div class="span4 t4 centre" style="background-color: #375688;">
+
+			<p class="first centre" style="margin-top: 34px;font-size: 22px; line-height: 26px;">New around here?</p>
+			<p class="read-more centre" style="margin-top: 12px;">
+				<a href="https://discuss.pirateparty.org.au" class="btn btn-primary">
+				Join the discussion!
+				</a>
 			</p>
 		</div>
-		
+
+		<div class="span4 t1 last">
+			<p style="margin-top: 25px;"><strong>Get our press releases</strong></p>
+			<p>Straight to your inbox!</p>
+			<p style="margin-top: 10px;" class="read-more">
+				<a href="/press-releases-list/" class="btn btn-primary">Find out more</a>
+			</p>
+		</div>
 	</div>
 </div>

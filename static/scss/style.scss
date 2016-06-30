@@ -271,7 +271,7 @@ blockquote {
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
 }
 
-/* Menu middel action section */
+/* Menu middle action section */
 
 #menu-action {
 	margin-top: -6px !important;
@@ -897,6 +897,12 @@ input:-moz-placeholder {
   #menu-left, #menu-left-menu {
   	margin-left: 50px !important;
   }
+}
+
+@media (max-width: 979px) {
+	.dropdown-backdrop {
+		position: static;
+	}
 }
 
 

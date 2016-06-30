@@ -21,18 +21,14 @@
 					
 					<div class="row-fluid footer-content">
 						<div class="span6">
-							<p>
-								Authorised by: B Molloy, Party Secretary, Pirate Party Australia
-              </p>
-              <p>
-                26 Emerton Street, Evatt ACT 2617 Australia
-							</p>
+							<p>Authorised by: D Judge, Party Secretary, Pirate Party Australia</p>
+							<p>65 Burg Street, East Maitland, New South Wales, 2323, Australia</p>
 						</div>
 						<div class="span6">
 							<p>
-                Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" class="license" rel="license"><img src="<?= static_url() ?>img/cc80x15.png" alt="Creative Commons License"></a>
-              </p>
-              <p>
+								Copyright © 2013 Pirate Party Australia <a href="http://creativecommons.org/licenses/by/3.0/" class="license" rel="license"><img src="<?= static_url() ?>img/cc80x15.png" alt="Creative Commons License"></a>
+							</p>
+							<p>
 								This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 Unported License</a>
 							</p>
 						</div>
@@ -41,11 +37,9 @@
 					<?php tha_footer_bottom(); ?>
 				</footer><!-- #colophon -->
 				<?php tha_footer_after(); ?>
-	<!-- <?php printf( __( '%d queries. %s seconds.', 'the-bootstrap' ), get_num_queries(), timer_stop(0, 3) ); ?> -->
 
-
-	<script type="text/javascript" src="<?= static_url() ?>js/vendor/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="<?= static_url() ?>vendor/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>js/vendor/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="<?= static_url() ?>vendor/bootstrap-2.3.2/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?= static_url() ?>js/script.js"></script>
 
 	<script type="text/javascript">

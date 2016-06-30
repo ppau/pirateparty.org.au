@@ -29,7 +29,7 @@
 
 	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 	
-	<script src="<?= static_url() ?>js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="<?= static_url() ?>js/vendor/modernizr-2.8.3.min.js"></script>
 	<link rel="shortcut icon" href="<?= static_url() ?>favicon.ico"/>
 	<link rel="image_src" href="<?= static_url() ?>img/logo.png"/>
 	
@@ -75,7 +75,7 @@
 	<div class="navbar ppau-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<button id="responsive-menu-button" data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+				<button id="responsive-menu-button" data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
 					<i class="icon-th-list"></i> Menu
 				</button>
 				
@@ -108,8 +108,8 @@ $defaults = array(
 						<?php wp_nav_menu($defaults); ?>
 						
 						<ul id="menu-action" class="sf-menu hidden-phone hidden-tablet">
-							<li><a href="<?php echo join_page_uri() ?>" class="action left">Join us!</a></li>
-							<li><a href="<?php echo help_us_page_uri() ?>" class="action right">Help us!</a></li>
+							<li><a href="<?php echo join_page_uri() ?>" class="action left">Join!</a></li>
+							<li><a href="https://pirateparty.org.au/gettinginvolved/" class="action right">Volunteer!</a></li>
 						</ul>
 
 <?php
